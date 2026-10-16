@@ -1,1602 +1,802 @@
 [
   {
-    "id": 5001,
+    "id": 8001,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Definición",
-    "pregunta": "¿Cuál formulación representa mejor la definición funcional del asma descrita en los documentos?",
-    "correcta_texto": "Síntomas respiratorios variables asociados a variabilidad de la limitación del flujo aéreo espiratorio",
+    "tema": "Inflamación T2",
+    "pregunta": "¿Qué secuencia representa mejor el inicio de la respuesta inflamatoria T2 descrita?",
+    "correcta_texto": "Activación epitelial → alarminas → respuesta Th2/ILC2 → citocinas T2",
     "alternativas": [
-      "Síntomas respiratorios persistentes asociados a una obstrucción fija desde el inicio",
-      "Síntomas respiratorios variables asociados a variabilidad de la limitación del flujo aéreo espiratorio",
-      "Síntomas respiratorios variables asociados principalmente a una reducción estable de los volúmenes pulmonares",
-      "Síntomas respiratorios recurrentes con función pulmonar obligatoriamente anormal entre episodios"
+      "Músculo liso → IgE → disminución de permeabilidad",
+      "Mastocito → remodelado → broncodilatación → resolución",
+      "Moco → eosinófilos → aumento del radio bronquial",
+      "Activación epitelial → alarminas → respuesta Th2/ILC2 → citocinas T2"
     ],
     "feedbackIncorrecto": {
-      "Síntomas respiratorios persistentes asociados a una obstrucción fija desde el inicio": "La obstrucción fija puede aparecer en algunos pacientes con remodelado, pero no define el asma desde el inicio.",
-      "Síntomas respiratorios variables asociados principalmente a una reducción estable de los volúmenes pulmonares": "El patrón fisiológico predominante es obstructivo y variable, no una reducción estable de volúmenes como mecanismo principal.",
-      "Síntomas respiratorios recurrentes con función pulmonar obligatoriamente anormal entre episodios": "Los documentos señalan que la función pulmonar puede ser normal entre episodios."
+      "Mastocito → remodelado → broncodilatación → resolución": "El remodelado es crónico y no constituye el inicio de la respuesta.",
+      "Moco → eosinófilos → aumento del radio bronquial": "El moco es una consecuencia y no aumenta el radio bronquial.",
+      "Músculo liso → IgE → disminución de permeabilidad": "El músculo liso no inicia la producción de IgE."
     },
-    "ideaClave": "La variabilidad clínica y funcional es un rasgo central del asma."
+    "ideaClave": "La respuesta T2 comienza con señales epiteliales que activan células inmunitarias."
   },
   {
-    "id": 5002,
+    "id": 8002,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Etiología",
-    "pregunta": "¿Qué opción diferencia correctamente factor de riesgo etiológico, desencadenante y mecanismo fisiopatológico?",
-    "correcta_texto": "El factor de riesgo se asocia al desarrollo; el desencadenante provoca síntomas; el mecanismo explica cómo se produce la obstrucción",
+    "tema": "Citocinas",
+    "pregunta": "¿Qué efecto se relaciona principalmente con IL-5?",
+    "correcta_texto": "Maduración, reclutamiento y supervivencia de eosinófilos",
     "alternativas": [
-      "El factor de riesgo provoca siempre una crisis, el desencadenante determina el fenotipo y el mecanismo define la gravedad",
-      "El factor de riesgo y el desencadenante son equivalentes, mientras el mecanismo solo describe los síntomas",
-      "El factor de riesgo se asocia al desarrollo; el desencadenante provoca síntomas; el mecanismo explica cómo se produce la obstrucción",
-      "El factor de riesgo define la causa única, el desencadenante confirma asma y el mecanismo indica la respuesta al tratamiento"
+      "Relajación directa del músculo liso",
+      "Reducción de la permeabilidad vascular",
+      "Maduración, reclutamiento y supervivencia de eosinófilos",
+      "Producción de IgE como efecto predominante"
     ],
     "feedbackIncorrecto": {
-      "El factor de riesgo provoca siempre una crisis, el desencadenante determina el fenotipo y el mecanismo define la gravedad": "Un factor de riesgo no necesariamente desencadena una crisis aguda.",
-      "El factor de riesgo y el desencadenante son equivalentes, mientras el mecanismo solo describe los síntomas": "Los documentos separan explícitamente estos tres conceptos.",
-      "El factor de riesgo define la causa única, el desencadenante confirma asma y el mecanismo indica la respuesta al tratamiento": "La asociación de un factor no implica causa única ni confirma por sí sola el diagnóstico."
+      "Producción de IgE como efecto predominante": "La producción de IgE se relaciona especialmente con IL-4 e IL-13.",
+      "Relajación directa del músculo liso": "IL-5 no es un broncodilatador.",
+      "Reducción de la permeabilidad vascular": "No se describe como mediador reductor de permeabilidad."
     },
-    "ideaClave": "Distinguir riesgo, desencadenante y mecanismo evita confundir causalidad con expresión clínica."
+    "ideaClave": "IL-5 es central en la respuesta eosinofílica."
   },
   {
-    "id": 5003,
+    "id": 8003,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Fenotipos",
-    "pregunta": "¿Qué afirmación sobre los fenotipos/endotipos del asma es consistente con el material?",
-    "correcta_texto": "La inflamación T2 puede asociarse a IgE y eosinófilos elevados, pero no representa a todos los pacientes",
+    "tema": "Citocinas",
+    "pregunta": "¿Qué efecto se asocia especialmente con IL-13?",
+    "correcta_texto": "Mayor producción de moco e hiperreactividad bronquial",
     "alternativas": [
-      "El asma T2 baja se define por ausencia total de inflamación bronquial",
-      "El asma eosinofílica siempre requiere demostrar alergia mediada por IgE",
-      "La elevación de IgE es necesaria para diagnosticar cualquier tipo de asma",
-      "La inflamación T2 puede asociarse a IgE y eosinófilos elevados, pero no representa a todos los pacientes"
+      "Maduración eosinofílica como efecto principal",
+      "Relajación directa del músculo liso",
+      "Mayor producción de moco e hiperreactividad bronquial",
+      "Reducción del edema inflamatorio"
     ],
     "feedbackIncorrecto": {
-      "La elevación de IgE es necesaria para diagnosticar cualquier tipo de asma": "El material advierte que la IgE no es universal ni diagnóstica por sí sola.",
-      "El asma eosinofílica siempre requiere demostrar alergia mediada por IgE": "Puede existir asma eosinofílica sin alergia demostrable.",
-      "El asma T2 baja se define por ausencia total de inflamación bronquial": "T2 baja no significa ausencia total de inflamación, sino biomarcadores T2 bajos y mecanismos variables."
+      "Maduración eosinofílica como efecto principal": "Ese papel se relaciona especialmente con IL-5.",
+      "Relajación directa del músculo liso": "IL-13 no es un broncodilatador.",
+      "Reducción del edema inflamatorio": "No se describe como reductor del edema."
     },
-    "ideaClave": "El asma es heterogénea y no todos los casos siguen el mismo endotipo."
+    "ideaClave": "IL-13 contribuye a hipersecreción e hiperreactividad."
   },
   {
-    "id": 5004,
+    "id": 8004,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Epitelio y alarminas",
-    "pregunta": "¿Qué función se atribuye al epitelio bronquial en la inflamación asmática?",
-    "correcta_texto": "Actúa como barrera y puede liberar alarminas que favorecen respuestas inmunitarias de la mucosa",
+    "tema": "Respuesta inmediata",
+    "pregunta": "¿Qué evento explica la fase broncoconstrictora inmediata tras una nueva exposición a un alérgeno?",
+    "correcta_texto": "Activación de mastocitos sensibilizados y liberación de mediadores",
     "alternativas": [
-      "Actúa solo como barrera pasiva y no participa en señalización inflamatoria",
-      "Su función principal es relajar el músculo liso cuando aumenta la inflamación",
-      "Produce directamente IgE y eosinófilos en respuesta a alérgenos",
-      "Actúa como barrera y puede liberar alarminas que favorecen respuestas inmunitarias de la mucosa"
+      "Depósito rápido de colágeno subepitelial",
+      "Hipertrofia del músculo liso en minutos",
+      "Activación de mastocitos sensibilizados y liberación de mediadores",
+      "Desaparición de eosinófilos"
     ],
     "feedbackIncorrecto": {
-      "Actúa solo como barrera pasiva y no participa en señalización inflamatoria": "El material lo describe como barrera física y componente activo de la inmunidad.",
-      "Produce directamente IgE y eosinófilos en respuesta a alérgenos": "La IgE proviene de linfocitos B/plasmocitos y los eosinófilos no son producidos por el epitelio.",
-      "Su función principal es relajar el músculo liso cuando aumenta la inflamación": "La activación epitelial favorece inflamación, no broncodilatación compensatoria."
+      "Depósito rápido de colágeno subepitelial": "El colágeno corresponde a remodelado crónico.",
+      "Hipertrofia del músculo liso en minutos": "La hipertrofia muscular no aparece en minutos.",
+      "Desaparición de eosinófilos": "La respuesta inmediata no depende de perder eosinófilos."
     },
-    "ideaClave": "TSLP, IL-25 e IL-33 son alarminas epiteliales destacadas."
+    "ideaClave": "La fase inmediata depende de mediadores liberados rápidamente por mastocitos."
   },
   {
-    "id": 5005,
+    "id": 8005,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Citocinas T2",
-    "pregunta": "¿Qué asociación mediador-efecto está correctamente emparejada?",
-    "correcta_texto": "IL-5 — maduración, reclutamiento y supervivencia eosinofílica",
+    "tema": "Broncoconstricción",
+    "pregunta": "¿Cuál es la consecuencia mecánica más directa de la contracción del músculo liso bronquial?",
+    "correcta_texto": "Disminución del radio y aumento de la resistencia al flujo",
     "alternativas": [
-      "IL-4 — relajación directa del músculo liso bronquial",
-      "IL-5 — maduración, reclutamiento y supervivencia eosinofílica",
-      "IL-13 — inhibición de la secreción de moco",
-      "Histamina — disminución de la permeabilidad vascular"
+      "Disminución de la perfusión como efecto primario",
+      "Aumento del radio y reducción de la resistencia",
+      "Disminución del radio y aumento de la resistencia al flujo",
+      "Aumento de la distensibilidad pulmonar"
     ],
     "feedbackIncorrecto": {
-      "IL-4 — relajación directa del músculo liso bronquial": "IL-4 se relaciona con respuesta alérgica y producción de IgE.",
-      "IL-13 — inhibición de la secreción de moco": "IL-13 contribuye a moco e hiperreactividad, no a inhibirlas.",
-      "Histamina — disminución de la permeabilidad vascular": "La histamina puede aumentar la permeabilidad vascular."
+      "Aumento del radio y reducción de la resistencia": "La contracción estrecha la vía aérea.",
+      "Disminución de la perfusión como efecto primario": "La perfusión no es el efecto mecánico primario.",
+      "Aumento de la distensibilidad pulmonar": "La broncoconstricción no aumenta la distensibilidad."
     },
-    "ideaClave": "Cada mediador tiene efectos predominantes distintos dentro de la respuesta T2."
+    "ideaClave": "La resistencia aumenta cuando disminuye el radio de la vía aérea."
   },
   {
-    "id": 5006,
+    "id": 8006,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Mediadores",
-    "pregunta": "¿Qué combinación refleja mejor los efectos de los leucotrienos señalados en el material?",
-    "correcta_texto": "Broncoconstricción, edema y secreción mucosa",
+    "tema": "Edema",
+    "pregunta": "¿Cómo contribuye el edema inflamatorio a la obstrucción?",
+    "correcta_texto": "Engrosa la pared y reduce la luz disponible",
     "alternativas": [
-      "Broncoconstricción, edema y secreción mucosa",
-      "Disminución de hiperreactividad, broncodilatación y reducción de edema",
-      "Broncodilatación, menor permeabilidad y reducción de moco",
-      "Aumento de IgE, disminución de eosinófilos y relajación bronquial"
+      "Reduce la resistencia espiratoria",
+      "Aumenta la ventilación regional",
+      "Aumenta el radio interno",
+      "Engrosa la pared y reduce la luz disponible"
     ],
     "feedbackIncorrecto": {
-      "Broncodilatación, menor permeabilidad y reducción de moco": "Los leucotrienos favorecen, no reducen, la obstrucción.",
-      "Aumento de IgE, disminución de eosinófilos y relajación bronquial": "No se describen como inhibidores de eosinófilos ni como broncodilatadores.",
-      "Disminución de hiperreactividad, broncodilatación y reducción de edema": "Su acción favorece broncoconstricción y edema."
+      "Aumenta el radio interno": "El edema estrecha el lumen.",
+      "Reduce la resistencia espiratoria": "La resistencia aumenta.",
+      "Aumenta la ventilación regional": "La ventilación puede disminuir por obstrucción."
     },
-    "ideaClave": "Los leucotrienos contribuyen a varios componentes de la obstrucción asmática."
+    "ideaClave": "El edema agrega un componente parietal al estrechamiento."
   },
   {
-    "id": 5007,
+    "id": 8007,
     "nivel": 1,
     "bloom": "Comprender",
-    "tema": "Obstrucción",
-    "pregunta": "¿Qué mecanismo explica mejor el aumento de resistencia durante una crisis asmática?",
-    "correcta_texto": "Reducción del radio bronquial por broncoconstricción, edema y moco",
+    "tema": "Moco",
+    "pregunta": "¿Cómo contribuyen el exceso de moco y los tapones mucosos?",
+    "correcta_texto": "Reducen la luz y generan obstrucción regional heterogénea",
     "alternativas": [
-      "Disminución del grosor de la pared bronquial con aumento de la luz",
-      "Reducción del radio bronquial por broncoconstricción, edema y moco",
-      "Aumento homogéneo del radio bronquial acompañado de mayor secreción",
-      "Reducción de la resistencia por menor tono del músculo liso"
+      "Disminuyen la resistencia al flujo",
+      "Reducen la luz y generan obstrucción regional heterogénea",
+      "Mejoran la relación V/Q",
+      "Aumentan el radio de manera homogénea"
     ],
     "feedbackIncorrecto": {
-      "Disminución del grosor de la pared bronquial con aumento de la luz": "La pared puede engrosarse y reducir la luz.",
-      "Aumento homogéneo del radio bronquial acompañado de mayor secreción": "La obstrucción implica reducción, no aumento, del radio efectivo.",
-      "Reducción de la resistencia por menor tono del músculo liso": "El tono del músculo liso aumenta durante broncoconstricción."
+      "Aumentan el radio de manera homogénea": "El moco ocupa el lumen.",
+      "Disminuyen la resistencia al flujo": "La resistencia aumenta.",
+      "Mejoran la relación V/Q": "La ventilación regional puede empeorar."
     },
-    "ideaClave": "Los tres componentes reducen el radio efectivo de la vía aérea."
+    "ideaClave": "El moco puede obstruir de forma desigual distintas regiones."
   },
   {
-    "id": 5008,
+    "id": 8008,
     "nivel": 1,
     "bloom": "Comprender",
     "tema": "Hiperreactividad",
-    "pregunta": "¿Qué describe mejor la hiperreactividad bronquial?",
-    "correcta_texto": "Respuesta broncoconstrictora exagerada frente a estímulos que producirían menor respuesta en una vía aérea no asmática",
+    "pregunta": "¿Qué significa hiperreactividad bronquial?",
+    "correcta_texto": "Respuesta broncoconstrictora exagerada frente a determinados estímulos",
     "alternativas": [
-      "Obstrucción bronquial fija que no cambia con estímulos",
-      "Respuesta broncoconstrictora exagerada frente a estímulos que producirían menor respuesta en una vía aérea no asmática",
-      "Reducción de la respuesta bronquial al ejercicio y al aire frío",
-      "Aumento permanente del calibre bronquial después de una exposición"
+      "Respuesta broncoconstrictora exagerada frente a determinados estímulos",
+      "Obstrucción fija independiente de estímulos",
+      "Respuesta broncodilatadora exagerada al ejercicio",
+      "Pérdida completa del tono bronquial"
     ],
     "feedbackIncorrecto": {
-      "Obstrucción bronquial fija que no cambia con estímulos": "La hiperreactividad implica respuesta variable y exagerada, no fija.",
-      "Reducción de la respuesta bronquial al ejercicio y al aire frío": "Ejercicio y aire frío pueden actuar como desencadenantes.",
-      "Aumento permanente del calibre bronquial después de una exposición": "No implica broncodilatación persistente."
+      "Obstrucción fija independiente de estímulos": "La hiperreactividad implica respuesta variable y exagerada.",
+      "Respuesta broncodilatadora exagerada al ejercicio": "El ejercicio puede desencadenar broncoconstricción.",
+      "Pérdida completa del tono bronquial": "No significa pérdida del tono bronquial."
     },
-    "ideaClave": "La hiperreactividad expresa una sensibilidad funcional aumentada de la vía aérea."
+    "ideaClave": "La vía aérea asmática responde en exceso a estímulos."
   },
   {
-    "id": 5009,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Mecánica espiratoria",
-    "pregunta": "¿Por qué la obstrucción asmática suele comprometer especialmente la espiración?",
-    "correcta_texto": "Durante la espiración disminuye el calibre de muchas vías intratorácicas, amplificando el efecto de la obstrucción",
-    "alternativas": [
-      "Durante la inspiración se produce siempre el máximo estrechamiento bronquial",
-      "La espiración no depende del calibre bronquial sino solo de la presión arterial pulmonar",
-      "Durante la espiración aumenta uniformemente el calibre bronquial y se enlentece el flujo",
-      "Durante la espiración disminuye el calibre de muchas vías intratorácicas, amplificando el efecto de la obstrucción"
-    ],
-    "feedbackIncorrecto": {
-      "Durante la espiración aumenta uniformemente el calibre bronquial y se enlentece el flujo": "El calibre disminuye durante la espiración, no aumenta.",
-      "Durante la inspiración se produce siempre el máximo estrechamiento bronquial": "La inspiración tiende a aumentar el calibre de las vías intratorácicas.",
-      "La espiración no depende del calibre bronquial sino solo de la presión arterial pulmonar": "El flujo espiratorio depende fuertemente del calibre y la resistencia."
-    },
-    "ideaClave": "La dinámica de la vía aérea intratorácica hace la espiración especialmente vulnerable."
-  },
-  {
-    "id": 5010,
+    "id": 8009,
     "nivel": 1,
     "bloom": "Comprender",
     "tema": "Hiperinsuflación",
-    "pregunta": "¿Qué condición favorece la hiperinsuflación dinámica?",
-    "correcta_texto": "Inicio de la siguiente inspiración antes de completar el vaciamiento espiratorio previo",
+    "pregunta": "¿Qué condición origina hiperinsuflación dinámica?",
+    "correcta_texto": "El siguiente ciclo comienza antes de completar la espiración previa",
     "alternativas": [
-      "Disminución marcada de la resistencia bronquial entre ciclos",
-      "Prolongación suficiente del tiempo espiratorio para completar el vaciamiento",
-      "Inicio de la siguiente inspiración antes de completar el vaciamiento espiratorio previo",
-      "Aumento del retroceso elástico que acelera completamente la espiración"
+      "Disminuye la resistencia y aumenta el tiempo espiratorio",
+      "El pulmón completa totalmente el vaciamiento",
+      "El siguiente ciclo comienza antes de completar la espiración previa",
+      "Aumenta la eficiencia del diafragma antes del siguiente ciclo"
     ],
     "feedbackIncorrecto": {
-      "Prolongación suficiente del tiempo espiratorio para completar el vaciamiento": "Más tiempo espiratorio reduce atrapamiento.",
-      "Disminución marcada de la resistencia bronquial entre ciclos": "Menor resistencia facilita el vaciamiento.",
-      "Aumento del retroceso elástico que acelera completamente la espiración": "Un vaciamiento completo reduce la hiperinsuflación."
+      "El pulmón completa totalmente el vaciamiento": "El vaciamiento completo evita atrapamiento.",
+      "Disminuye la resistencia y aumenta el tiempo espiratorio": "Menor resistencia favorece el vaciamiento.",
+      "Aumenta la eficiencia del diafragma antes del siguiente ciclo": "La desventaja diafragmática es consecuencia, no causa."
     },
-    "ideaClave": "El vaciamiento incompleto aumenta el volumen al final de la espiración."
+    "ideaClave": "El vaciamiento incompleto eleva el volumen al final de la espiración."
   },
   {
-    "id": 5011,
+    "id": 8010,
     "nivel": 1,
     "bloom": "Comprender",
+    "tema": "V/Q",
+    "pregunta": "¿Qué mecanismo explica mejor la hipoxemia en una exacerbación asmática?",
+    "correcta_texto": "Ventilación reducida en regiones que mantienen perfusión relativamente conservada",
+    "alternativas": [
+      "Ventilación conservada con ausencia completa de perfusión",
+      "Aumento general de ventilación con reducción uniforme de perfusión",
+      "Pérdida homogénea de ventilación y perfusión",
+      "Ventilación reducida en regiones que mantienen perfusión relativamente conservada"
+    ],
+    "feedbackIncorrecto": {
+      "Ventilación conservada con ausencia completa de perfusión": "Eso corresponde más a espacio muerto.",
+      "Pérdida homogénea de ventilación y perfusión": "La obstrucción asmática es heterogénea.",
+      "Aumento general de ventilación con reducción uniforme de perfusión": "La alteración predominante es baja V/Q."
+    },
+    "ideaClave": "La obstrucción desigual genera unidades de baja V/Q."
+  },
+  {
+    "id": 8011,
+    "nivel": 2,
+    "bloom": "Aplicar",
+    "tema": "Respuesta tardía",
+    "pregunta": "Seis horas después de una exposición persiste broncoespasmo y aumenta la hiperreactividad. ¿Qué proceso lo explica mejor?",
+    "correcta_texto": "Infiltración de células inflamatorias y persistencia de mediadores",
+    "alternativas": [
+      "Remodelado estructural completo en pocas horas",
+      "Pérdida total de actividad vagal",
+      "Resolución completa de la fase inmediata",
+      "Infiltración de células inflamatorias y persistencia de mediadores"
+    ],
+    "feedbackIncorrecto": {
+      "Resolución completa de la fase inmediata": "La persistencia sintomática contradice la resolución.",
+      "Remodelado estructural completo en pocas horas": "El remodelado requiere un proceso crónico.",
+      "Pérdida total de actividad vagal": "La actividad vagal puede contribuir a la broncoconstricción."
+    },
+    "ideaClave": "La fase tardía mantiene inflamación y puede aumentar la hiperreactividad."
+  },
+  {
+    "id": 8012,
+    "nivel": 2,
+    "bloom": "Aplicar",
+    "tema": "Obstrucción combinada",
+    "pregunta": "Durante una crisis coexisten broncoconstricción, edema y moco. ¿Por qué la resistencia aumenta de forma importante?",
+    "correcta_texto": "Los tres mecanismos reducen simultáneamente el radio efectivo",
+    "alternativas": [
+      "Los tres reducen la perfusión de forma paralela",
+      "Los tres mecanismos reducen simultáneamente el radio efectivo",
+      "Los tres disminuyen la presión pleural y aumentan el radio",
+      "Los tres aumentan la distensibilidad bronquial"
+    ],
+    "feedbackIncorrecto": {
+      "Los tres disminuyen la presión pleural y aumentan el radio": "No producen aumento del radio.",
+      "Los tres reducen la perfusión de forma paralela": "La perfusión no es el mecanismo común.",
+      "Los tres aumentan la distensibilidad bronquial": "No aumentan la distensibilidad de la vía aérea."
+    },
+    "ideaClave": "El efecto combinado sobre el calibre amplifica la resistencia."
+  },
+  {
+    "id": 8013,
+    "nivel": 2,
+    "bloom": "Aplicar",
+    "tema": "Espiración",
+    "pregunta": "Un paciente presenta espiración prolongada. ¿Qué cambio fisiopatológico lo explica mejor?",
+    "correcta_texto": "El aumento de resistencia enlentece el vaciamiento de unidades pulmonares",
+    "alternativas": [
+      "El aumento de resistencia enlentece el vaciamiento de unidades pulmonares",
+      "El aumento de perfusión prolonga directamente la espiración",
+      "La reducción de moco aumenta el tiempo espiratorio",
+      "La disminución de resistencia acelera la salida de aire"
+    ],
+    "feedbackIncorrecto": {
+      "La disminución de resistencia acelera la salida de aire": "La resistencia está aumentada.",
+      "El aumento de perfusión prolonga directamente la espiración": "La perfusión no determina el tiempo espiratorio.",
+      "La reducción de moco aumenta el tiempo espiratorio": "Menos moco facilitaría el vaciamiento."
+    },
+    "ideaClave": "La obstrucción aumenta el tiempo necesario para vaciar el pulmón."
+  },
+  {
+    "id": 8014,
+    "nivel": 2,
+    "bloom": "Aplicar",
+    "tema": "Hiperinsuflación",
+    "pregunta": "Un paciente con FR muy alta no completa la espiración antes del siguiente ciclo. ¿Qué cambio es esperable?",
+    "correcta_texto": "Aumento progresivo del volumen pulmonar al final de la espiración",
+    "alternativas": [
+      "Disminución progresiva del volumen final espiratorio",
+      "Aumento progresivo del volumen pulmonar al final de la espiración",
+      "Eliminación de la auto-PEEP",
+      "Mejora de la posición mecánica del diafragma"
+    ],
+    "feedbackIncorrecto": {
+      "Disminución progresiva del volumen final espiratorio": "El volumen final aumenta.",
+      "Eliminación de la auto-PEEP": "La auto-PEEP puede aparecer o aumentar.",
+      "Mejora de la posición mecánica del diafragma": "El diafragma pierde ventaja mecánica."
+    },
+    "ideaClave": "El vaciamiento incompleto genera hiperinsuflación dinámica."
+  },
+  {
+    "id": 8015,
+    "nivel": 2,
+    "bloom": "Aplicar",
     "tema": "Auto-PEEP",
-    "pregunta": "¿Qué representa la auto-PEEP durante una obstrucción grave?",
-    "correcta_texto": "Presión positiva residual al final de la espiración por vaciamiento incompleto",
+    "pregunta": "Un paciente hiperinsuflado debe realizar un esfuerzo inspiratorio mayor antes de que entre aire. ¿Qué lo explica?",
+    "correcta_texto": "Debe superar la presión positiva residual de la auto-PEEP",
     "alternativas": [
-      "Presión positiva residual al final de la espiración por vaciamiento incompleto",
-      "Presión positiva producida por aumento de perfusión sin atrapamiento",
-      "Presión negativa generada por broncodilatación excesiva",
-      "Ausencia de presión alveolar al final de la espiración"
+      "Debe vencer una presión alveolar negativa residual",
+      "Debe superar una reducción del volumen final espiratorio",
+      "Debe superar la presión positiva residual de la auto-PEEP",
+      "Debe compensar una disminución de perfusión"
     ],
     "feedbackIncorrecto": {
-      "Presión negativa generada por broncodilatación excesiva": "La auto-PEEP no es negativa.",
-      "Presión positiva producida por aumento de perfusión sin atrapamiento": "Se origina por atrapamiento aéreo, no por perfusión.",
-      "Ausencia de presión alveolar al final de la espiración": "Existe presión residual positiva cuando queda aire atrapado."
+      "Debe vencer una presión alveolar negativa residual": "La presión residual es positiva.",
+      "Debe compensar una disminución de perfusión": "La perfusión no explica esta carga.",
+      "Debe superar una reducción del volumen final espiratorio": "El volumen final está aumentado."
     },
-    "ideaClave": "La auto-PEEP agrega una carga umbral al siguiente esfuerzo inspiratorio."
+    "ideaClave": "La auto-PEEP actúa como carga umbral inspiratoria."
   },
   {
-    "id": 5012,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "V/Q",
-    "pregunta": "¿Qué alteración del intercambio gaseoso es más coherente con una crisis asmática?",
-    "correcta_texto": "Unidades con ventilación reducida y perfusión relativamente conservada",
-    "alternativas": [
-      "Pérdida homogénea de ventilación y perfusión en todo el pulmón",
-      "Unidades con ventilación conservada y perfusión completamente ausente como mecanismo predominante",
-      "Unidades con ventilación reducida y perfusión relativamente conservada",
-      "Aumento uniforme de ventilación regional con perfusión reducida"
-    ],
-    "feedbackIncorrecto": {
-      "Unidades con ventilación conservada y perfusión completamente ausente como mecanismo predominante": "Eso corresponde más a espacio muerto.",
-      "Pérdida homogénea de ventilación y perfusión en todo el pulmón": "La obstrucción asmática es heterogénea, no una pérdida global paralela.",
-      "Aumento uniforme de ventilación regional con perfusión reducida": "La alteración típica es baja V/Q, no alta V/Q generalizada."
-    },
-    "ideaClave": "La obstrucción desigual produce unidades de V/Q baja."
-  },
-  {
-    "id": 5013,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Gasometría",
-    "pregunta": "¿Qué patrón de PaCO₂ puede observarse en una crisis leve o moderada con hiperventilación?",
-    "correcta_texto": "PaCO₂ disminuida",
-    "alternativas": [
-      "PaCO₂ disminuida",
-      "PaCO₂ necesariamente elevada",
-      "PaCO₂ elevada solo porque existe hipoxemia",
-      "PaCO₂ siempre normal independientemente de la ventilación"
-    ],
-    "feedbackIncorrecto": {
-      "PaCO₂ necesariamente elevada": "La hiperventilación puede reducir la PaCO₂.",
-      "PaCO₂ siempre normal independientemente de la ventilación": "La PaCO₂ cambia según la ventilación alveolar.",
-      "PaCO₂ elevada solo porque existe hipoxemia": "La hipoxemia no obliga por sí sola a elevar la PaCO₂."
-    },
-    "ideaClave": "La hipocapnia puede reflejar compensación ventilatoria conservada."
-  },
-  {
-    "id": 5014,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Remodelado",
-    "pregunta": "¿Qué cambio pertenece al remodelado estructural de la vía aérea?",
-    "correcta_texto": "Engrosamiento subepitelial y aumento de masa de músculo liso",
-    "alternativas": [
-      "Desaparición de células caliciformes con menor secreción",
-      "Engrosamiento subepitelial y aumento de masa de músculo liso",
-      "Reducción persistente de matriz extracelular y adelgazamiento de la pared",
-      "Aumento universal de reversibilidad broncodilatadora"
-    ],
-    "feedbackIncorrecto": {
-      "Reducción persistente de matriz extracelular y adelgazamiento de la pared": "La matriz puede aumentar.",
-      "Desaparición de células caliciformes con menor secreción": "Puede existir hiperplasia de células caliciformes.",
-      "Aumento universal de reversibilidad broncodilatadora": "El remodelado puede reducir reversibilidad."
-    },
-    "ideaClave": "El remodelado puede contribuir a limitación persistente del flujo."
-  },
-  {
-    "id": 5015,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Manifestaciones",
-    "pregunta": "¿Qué patrón clínico es más compatible con asma según el material?",
-    "correcta_texto": "Tos, sibilancias, disnea u opresión con variabilidad temporal y desencadenantes específicos",
-    "alternativas": [
-      "Síntomas exclusivamente diurnos y nunca relacionados con ejercicio",
-      "Tos productiva persistente como único síntoma obligatorio",
-      "Tos, sibilancias, disnea u opresión con variabilidad temporal y desencadenantes específicos",
-      "Disnea continua sin variación temporal y sin relación con estímulos"
-    ],
-    "feedbackIncorrecto": {
-      "Disnea continua sin variación temporal y sin relación con estímulos": "La variabilidad temporal es característica.",
-      "Tos productiva persistente como único síntoma obligatorio": "La tos puede aparecer, pero no es necesariamente productiva ni única.",
-      "Síntomas exclusivamente diurnos y nunca relacionados con ejercicio": "Los síntomas pueden ser nocturnos, matinales o inducidos por ejercicio."
-    },
-    "ideaClave": "La variabilidad de síntomas es un rasgo clínico clave."
-  },
-  {
-    "id": 5016,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Señales de alarma",
-    "pregunta": "¿Cuál de los siguientes hallazgos debe interpretarse como señal de alarma?",
-    "correcta_texto": "Silencio auscultatorio en una persona con marcada dificultad respiratoria",
-    "alternativas": [
-      "Tos ocasional aislada entre episodios",
-      "Sibilancias leves con habla fluida y sin disnea",
-      "Disnea leve que desaparece espontáneamente tras reposo",
-      "Silencio auscultatorio en una persona con marcada dificultad respiratoria"
-    ],
-    "feedbackIncorrecto": {
-      "Sibilancias leves con habla fluida y sin disnea": "No describe una crisis grave.",
-      "Tos ocasional aislada entre episodios": "No constituye por sí sola una señal de alarma.",
-      "Disnea leve que desaparece espontáneamente tras reposo": "No tiene la misma gravedad que el silencio auscultatorio con dificultad respiratoria."
-    },
-    "ideaClave": "El silencio auscultatorio puede indicar flujo extremadamente reducido."
-  },
-  {
-    "id": 5017,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Diagnóstico",
-    "pregunta": "¿Qué combinación resume mejor el enfoque diagnóstico del asma?",
-    "correcta_texto": "Síntomas variables más evidencia objetiva de variabilidad del flujo espiratorio cuando sea posible",
-    "alternativas": [
-      "IgE elevada más eosinofilia como confirmación suficiente",
-      "Espirometría anormal obligatoria en toda consulta",
-      "Síntomas persistentes más radiografía compatible",
-      "Síntomas variables más evidencia objetiva de variabilidad del flujo espiratorio cuando sea posible"
-    ],
-    "feedbackIncorrecto": {
-      "Síntomas persistentes más radiografía compatible": "La radiografía no confirma asma.",
-      "IgE elevada más eosinofilia como confirmación suficiente": "Los biomarcadores no diagnostican asma por sí solos.",
-      "Espirometría anormal obligatoria en toda consulta": "La espirometría puede ser normal entre episodios."
-    },
-    "ideaClave": "El diagnóstico integra clínica y variabilidad funcional."
-  },
-  {
-    "id": 5018,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Espirometría",
-    "pregunta": "¿Qué hallazgo apoya reversibilidad en un adulto según el material?",
-    "correcta_texto": "Aumento de VEF₁ o CVF ≥12 % y ≥200 mL tras broncodilatador",
-    "alternativas": [
-      "Aumento de VEF₁ o CVF ≥12 % y ≥200 mL tras broncodilatador",
-      "CVF invariable en todas las mediciones",
-      "VEF₁/CVF necesariamente normal durante síntomas",
-      "Descenso del VEF₁ ≥12 % tras broncodilatador"
-    ],
-    "feedbackIncorrecto": {
-      "Descenso del VEF₁ ≥12 % tras broncodilatador": "La reversibilidad se demuestra por aumento, no descenso.",
-      "VEF₁/CVF necesariamente normal durante síntomas": "La relación puede reducirse en obstrucción.",
-      "CVF invariable en todas las mediciones": "La función pulmonar puede variar."
-    },
-    "ideaClave": "La respuesta broncodilatadora significativa apoya variabilidad del flujo."
-  },
-  {
-    "id": 5019,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Tratamiento",
-    "pregunta": "¿Qué efecto principal tiene el salbutamol según el documento?",
-    "correcta_texto": "Activa receptores β₂, aumenta AMPc y relaja el músculo liso bronquial",
-    "alternativas": [
-      "Activa receptores β₂, aumenta AMPc y relaja el músculo liso bronquial",
-      "Reduce inflamación y edema como mecanismo principal sostenido",
-      "Bloquea receptores muscarínicos y reduce el tono vagal",
-      "Bloquea IgE circulante y disminuye sensibilización"
-    ],
-    "feedbackIncorrecto": {
-      "Bloquea receptores muscarínicos y reduce el tono vagal": "Ese mecanismo corresponde a ipratropio.",
-      "Reduce inflamación y edema como mecanismo principal sostenido": "Ese es el objetivo de los corticoides, no del SABA.",
-      "Bloquea IgE circulante y disminuye sensibilización": "Ese mecanismo corresponde a un biológico anti-IgE."
-    },
-    "ideaClave": "El SABA es un broncodilatador rápido."
-  },
-  {
-    "id": 5020,
-    "nivel": 1,
-    "bloom": "Comprender",
-    "tema": "Kinesiología",
-    "pregunta": "¿Qué principio orienta la intervención kinésica en asma estable?",
-    "correcta_texto": "Evaluar síntomas, patrón ventilatorio, capacidad funcional, técnica inhalatoria y tolerancia al esfuerzo",
-    "alternativas": [
-      "Evitar ejercicio físico aunque el asma esté controlada",
-      "Sustituir la medicación por ejercicios respiratorios",
-      "Evaluar síntomas, patrón ventilatorio, capacidad funcional, técnica inhalatoria y tolerancia al esfuerzo",
-      "Realizar higiene bronquial rutinaria en todo paciente"
-    ],
-    "feedbackIncorrecto": {
-      "Realizar higiene bronquial rutinaria en todo paciente": "La higiene bronquial se reserva a indicaciones específicas.",
-      "Sustituir la medicación por ejercicios respiratorios": "Los ejercicios no reemplazan la medicación.",
-      "Evitar ejercicio físico aunque el asma esté controlada": "El ejercicio debe promoverse con control adecuado."
-    },
-    "ideaClave": "La intervención kinésica es individualizada y complementaria."
-  },
-  {
-    "id": 5021,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Fase inmediata",
-    "pregunta": "Un paciente sensibilizado desarrolla sibilancias a los pocos minutos de exponerse a un alérgeno. ¿Qué mecanismo explica mejor el inicio rápido?",
-    "correcta_texto": "Entrecruzamiento de IgE en mastocitos con liberación de histamina y leucotrienos",
-    "alternativas": [
-      "Acumulación de matriz extracelular que estrecha la vía aérea",
-      "Aumento progresivo de masa muscular lisa por remodelado",
-      "Entrecruzamiento de IgE en mastocitos con liberación de histamina y leucotrienos",
-      "Activación de fibroblastos con depósito subepitelial de colágeno"
-    ],
-    "feedbackIncorrecto": {
-      "Activación de fibroblastos con depósito subepitelial de colágeno": "Es un mecanismo crónico de remodelado.",
-      "Aumento progresivo de masa muscular lisa por remodelado": "La hipertrofia/hiperplasia no aparece en minutos.",
-      "Acumulación de matriz extracelular que estrecha la vía aérea": "La matriz extracelular aumenta a largo plazo, no explica la fase inmediata."
-    },
-    "ideaClave": "La respuesta inmediata alérgica depende de mediadores mastocitarios."
-  },
-  {
-    "id": 5022,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Fase tardía",
-    "pregunta": "Cuatro a ocho horas después de una exposición, el paciente mantiene broncoespasmo y aumenta la hiperreactividad. ¿Qué proceso es más probable?",
-    "correcta_texto": "Infiltración de células inflamatorias con respuesta tardía",
-    "alternativas": [
-      "Pérdida aguda de toda señal vagal",
-      "Resolución completa de la respuesta inmediata",
-      "Infiltración de células inflamatorias con respuesta tardía",
-      "Remodelado estructural establecido en pocas horas"
-    ],
-    "feedbackIncorrecto": {
-      "Resolución completa de la respuesta inmediata": "La persistencia de síntomas contradice una resolución completa.",
-      "Remodelado estructural establecido en pocas horas": "El remodelado estructural es crónico.",
-      "Pérdida aguda de toda señal vagal": "La respuesta tardía puede incluir, no perder, participación vagal."
-    },
-    "ideaClave": "La respuesta tardía puede mantener inflamación y broncoconstricción."
-  },
-  {
-    "id": 5023,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Vagal",
-    "pregunta": "Durante una exacerbación, aumenta la actividad vagal colinérgica. ¿Qué efecto sería coherente con el material?",
-    "correcta_texto": "Mayor contracción del músculo liso y mayor producción de moco",
-    "alternativas": [
-      "Reducción de la secreción mucosa",
-      "Mayor contracción del músculo liso y mayor producción de moco",
-      "Disminución de la resistencia espiratoria por broncodilatación",
-      "Relajación bronquial mediada por β₂"
-    ],
-    "feedbackIncorrecto": {
-      "Relajación bronquial mediada por β₂": "La vía β₂ no corresponde al efecto vagal descrito.",
-      "Reducción de la secreción mucosa": "La acetilcolina vagal puede aumentar secreción.",
-      "Disminución de la resistencia espiratoria por broncodilatación": "La actividad colinérgica favorece broncoconstricción."
-    },
-    "ideaClave": "La vía vagal puede intensificar broncoconstricción y secreción."
-  },
-  {
-    "id": 5024,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Mecánica",
-    "pregunta": "Un paciente con crisis aumenta mucho la frecuencia respiratoria y acorta la espiración. ¿Qué consecuencia es más probable?",
-    "correcta_texto": "Hiperinsuflación dinámica por vaciamiento incompleto",
-    "alternativas": [
-      "Hiperinsuflación dinámica por vaciamiento incompleto",
-      "Mejora de la eficiencia diafragmática por respiración rápida",
-      "Disminución del volumen al final de la espiración por mayor frecuencia",
-      "Reducción de la auto-PEEP por menor tiempo espiratorio"
-    ],
-    "feedbackIncorrecto": {
-      "Disminución del volumen al final de la espiración por mayor frecuencia": "El volumen final espiratorio tiende a aumentar.",
-      "Mejora de la eficiencia diafragmática por respiración rápida": "La hiperinsuflación coloca al diafragma en desventaja.",
-      "Reducción de la auto-PEEP por menor tiempo espiratorio": "Menor tiempo espiratorio favorece, no reduce, auto-PEEP."
-    },
-    "ideaClave": "Taquipnea más obstrucción favorece atrapamiento."
-  },
-  {
-    "id": 5025,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Trabajo respiratorio",
-    "pregunta": "Paciente con hiperinsuflación usa músculos accesorios para iniciar cada inspiración. ¿Qué explica mejor este aumento del esfuerzo?",
-    "correcta_texto": "Debe vencer auto-PEEP y trabajar con un diafragma en desventaja mecánica",
-    "alternativas": [
-      "El volumen final espiratorio disminuyó y acortó el diafragma",
-      "La distensibilidad aumentó y exige mayor presión inspiratoria",
-      "Debe vencer auto-PEEP y trabajar con un diafragma en desventaja mecánica",
-      "La resistencia bronquial disminuyó demasiado y requiere compensación"
-    ],
-    "feedbackIncorrecto": {
-      "La resistencia bronquial disminuyó demasiado y requiere compensación": "La resistencia sigue elevada.",
-      "La distensibilidad aumentó y exige mayor presión inspiratoria": "Mayor distensibilidad no aumentaría de esa manera el trabajo.",
-      "El volumen final espiratorio disminuyó y acortó el diafragma": "El volumen final espiratorio aumenta, no disminuye."
-    },
-    "ideaClave": "La hiperinsuflación agrega carga umbral y empeora la mecánica inspiratoria."
-  },
-  {
-    "id": 5026,
+    "id": 8016,
     "nivel": 2,
     "bloom": "Aplicar",
     "tema": "V/Q",
-    "pregunta": "Un paciente asmático presenta hipoxemia durante una crisis sin infiltrados en la radiografía. ¿Qué mecanismo es más probable?",
-    "correcta_texto": "Obstrucción desigual que genera unidades de baja V/Q",
+    "pregunta": "Durante una crisis algunas regiones reciben poco aire pero mantienen flujo sanguíneo. ¿Qué alteración aparece?",
+    "correcta_texto": "Relación V/Q baja",
     "alternativas": [
-      "Shunt anatómico fijo por ausencia de ventilación en todo el pulmón",
-      "Obstrucción desigual que genera unidades de baja V/Q",
-      "Reducción global de la perfusión con ventilación conservada",
-      "Fibrosis intersticial aguda que limita la difusión de manera difusa"
+      "Ventilación y perfusión normales",
+      "Relación V/Q alta",
+      "Espacio muerto puro",
+      "Relación V/Q baja"
     ],
     "feedbackIncorrecto": {
-      "Shunt anatómico fijo por ausencia de ventilación en todo el pulmón": "El asma suele producir desajuste V/Q, no shunt anatómico global.",
-      "Fibrosis intersticial aguda que limita la difusión de manera difusa": "La fibrosis aguda no corresponde a una crisis asmática típica.",
-      "Reducción global de la perfusión con ventilación conservada": "Ese patrón se asemeja más a espacio muerto."
+      "Relación V/Q alta": "V/Q alta ocurre cuando la ventilación excede la perfusión.",
+      "Espacio muerto puro": "El espacio muerto implica perfusión ausente.",
+      "Ventilación y perfusión normales": "La ventilación está reducida."
     },
-    "ideaClave": "La hipoxemia se explica principalmente por heterogeneidad ventilatoria."
+    "ideaClave": "La baja V/Q explica parte importante de la hipoxemia asmática."
   },
   {
-    "id": 5027,
+    "id": 8017,
     "nivel": 2,
     "bloom": "Aplicar",
-    "tema": "Gasometría",
-    "pregunta": "Un paciente con crisis moderada presenta PaCO₂ de 28 mmHg y taquipnea. ¿Qué interpretación es más adecuada?",
-    "correcta_texto": "Mantiene hiperventilación compensatoria efectiva",
+    "tema": "PaCO2 inicial",
+    "pregunta": "Paciente con crisis moderada presenta PaCO₂ de 29 mmHg. ¿Qué interpretación es más coherente?",
+    "correcta_texto": "Hiperventilación compensatoria todavía efectiva",
     "alternativas": [
-      "No puede coexistir hipoxemia con ese valor de PaCO₂",
-      "La obstrucción ya se resolvió",
-      "Mantiene hiperventilación compensatoria efectiva",
-      "Presenta fracaso ventilatorio hipercápnico"
+      "Fracaso ventilatorio con retención de CO₂",
+      "Resolución completa de la obstrucción",
+      "La baja PaCO₂ excluye hipoxemia",
+      "Hiperventilación compensatoria todavía efectiva"
     ],
     "feedbackIncorrecto": {
-      "Presenta fracaso ventilatorio hipercápnico": "La PaCO₂ está baja, no elevada.",
-      "La obstrucción ya se resolvió": "La hipocapnia no demuestra resolución de la obstrucción.",
-      "No puede coexistir hipoxemia con ese valor de PaCO₂": "Puede existir hipoxemia con hipocapnia."
+      "Fracaso ventilatorio con retención de CO₂": "La PaCO₂ está baja, no retenida.",
+      "Resolución completa de la obstrucción": "La hipocapnia no demuestra resolución.",
+      "La baja PaCO₂ excluye hipoxemia": "Puede coexistir hipoxemia."
     },
-    "ideaClave": "La hipocapnia puede aparecer mientras el paciente aún compensa."
+    "ideaClave": "La hipocapnia puede aparecer mientras el paciente compensa."
   },
   {
-    "id": 5028,
+    "id": 8018,
     "nivel": 2,
     "bloom": "Aplicar",
-    "tema": "Gasometría",
-    "pregunta": "En una crisis grave, la PaCO₂ sube desde 28 a 40 mmHg y el paciente se agota. ¿Qué significa ese cambio?",
-    "correcta_texto": "Puede indicar pérdida de la capacidad compensatoria y menor ventilación efectiva",
+    "tema": "PaCO2 grave",
+    "pregunta": "En una crisis grave la PaCO₂ sube de 28 a 40 mmHg y el paciente se agota. ¿Qué indica?",
+    "correcta_texto": "Pérdida de hiperventilación compensatoria y deterioro ventilatorio",
     "alternativas": [
-      "Demuestra que la obstrucción bronquial se resolvió",
-      "Confirma que la relación V/Q se normalizó",
-      "Puede indicar pérdida de la capacidad compensatoria y menor ventilación efectiva",
-      "Indica normalización segura porque 40 mmHg está dentro del rango habitual"
+      "Pérdida de hiperventilación compensatoria y deterioro ventilatorio",
+      "Mejoría porque el valor se acerca al rango habitual",
+      "Normalización de la relación V/Q",
+      "Resolución de la broncoconstricción"
     ],
     "feedbackIncorrecto": {
-      "Indica normalización segura porque 40 mmHg está dentro del rango habitual": "En una crisis grave, la tendencia puede ser más importante que el valor aislado.",
-      "Demuestra que la obstrucción bronquial se resolvió": "La PaCO₂ normal no demuestra resolución mecánica.",
-      "Confirma que la relación V/Q se normalizó": "La gasometría no confirma por sí sola normalización V/Q."
+      "Mejoría porque el valor se acerca al rango habitual": "La tendencia ascendente es preocupante.",
+      "Resolución de la broncoconstricción": "No demuestra resolución mecánica.",
+      "Normalización de la relación V/Q": "No confirma normalización V/Q."
     },
-    "ideaClave": "Una PaCO₂ normal o ascendente con agotamiento es una señal de alarma."
+    "ideaClave": "La tendencia de PaCO₂ es más importante que un valor aislado."
   },
   {
-    "id": 5029,
+    "id": 8019,
     "nivel": 2,
     "bloom": "Aplicar",
     "tema": "Remodelado",
-    "pregunta": "Un paciente con asma de larga evolución muestra menor reversibilidad broncodilatadora que años atrás. ¿Qué mecanismo puede contribuir?",
-    "correcta_texto": "Remodelado con aumento de matriz y masa de músculo liso",
+    "pregunta": "Un paciente con años de asma presenta menor reversibilidad que antes. ¿Qué cambio puede explicarlo?",
+    "correcta_texto": "Aumento de matriz extracelular, masa muscular lisa y engrosamiento subepitelial",
     "alternativas": [
-      "Reducción permanente de la pared bronquial por pérdida de colágeno",
-      "Desaparición progresiva de células caliciformes",
-      "Remodelado con aumento de matriz y masa de músculo liso",
-      "Aumento sostenido del diámetro bronquial en reposo"
+      "Disminución de matriz y músculo liso",
+      "Desaparición de células caliciformes",
+      "Aumento permanente del diámetro bronquial",
+      "Aumento de matriz extracelular, masa muscular lisa y engrosamiento subepitelial"
     ],
     "feedbackIncorrecto": {
-      "Reducción permanente de la pared bronquial por pérdida de colágeno": "El remodelado puede aumentar depósito de matriz.",
-      "Desaparición progresiva de células caliciformes": "Puede existir hiperplasia de células caliciformes.",
-      "Aumento sostenido del diámetro bronquial en reposo": "Puede favorecer estrechamiento persistente, no mayor diámetro."
-    },
-    "ideaClave": "Los cambios estructurales pueden reducir la reversibilidad."
-  },
-  {
-    "id": 5030,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Diagnóstico",
-    "pregunta": "Un adulto con síntomas variables tiene espirometría normal el día de la consulta. ¿Qué conducta diagnóstica es coherente con el material?",
-    "correcta_texto": "Buscar variabilidad objetiva con repetición, PEF seriado o prueba seleccionada",
-    "alternativas": [
-      "Confirmar asma exclusivamente por la historia clínica",
-      "Buscar variabilidad objetiva con repetición, PEF seriado o prueba seleccionada",
-      "Descartar asma porque la espirometría es normal",
-      "Solicitar biomarcadores T2 y considerarlos confirmatorios"
-    ],
-    "feedbackIncorrecto": {
-      "Descartar asma porque la espirometría es normal": "La normalidad entre episodios no excluye asma.",
-      "Confirmar asma exclusivamente por la historia clínica": "La clínica orienta pero idealmente se documenta variabilidad objetiva.",
-      "Solicitar biomarcadores T2 y considerarlos confirmatorios": "Los biomarcadores no confirman por sí solos el diagnóstico."
-    },
-    "ideaClave": "El diagnóstico puede requerir mediciones en distintos momentos."
-  },
-  {
-    "id": 5031,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "PEF",
-    "pregunta": "¿Qué condición mejora la interpretación de un registro seriado de PEF?",
-    "correcta_texto": "Usar técnica consistente, el mismo dispositivo y registro repetido",
-    "alternativas": [
-      "Cambiar de dispositivo para evitar sesgo instrumental",
-      "Registrar solo la medición más baja del día",
-      "Realizarlo únicamente durante una exacerbación grave",
-      "Usar técnica consistente, el mismo dispositivo y registro repetido"
-    ],
-    "feedbackIncorrecto": {
-      "Cambiar de dispositivo para evitar sesgo instrumental": "Cambiar de dispositivo agrega variabilidad técnica.",
-      "Registrar solo la medición más baja del día": "Se requieren mediciones comparables y seriadas, no solo el peor valor.",
-      "Realizarlo únicamente durante una exacerbación grave": "El PEF seriado se usa para documentar variabilidad, no solo en crisis graves."
-    },
-    "ideaClave": "La consistencia técnica es esencial para comparar PEF."
-  },
-  {
-    "id": 5032,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Provocación",
-    "pregunta": "Paciente estable con síntomas inducidos por ejercicio y espirometría no concluyente. ¿Qué prueba puede ser útil?",
-    "correcta_texto": "Prueba de provocación bronquial o de ejercicio supervisada",
-    "alternativas": [
-      "Prueba de provocación bronquial o de ejercicio supervisada",
-      "Radiografía de tórax para demostrar reversibilidad",
-      "Gasometría arterial para confirmar hiperreactividad",
-      "Provocación bronquial durante una crisis inestable"
-    ],
-    "feedbackIncorrecto": {
-      "Gasometría arterial para confirmar hiperreactividad": "La gasometría evalúa ventilación/oxigenación, no hiperreactividad.",
-      "Radiografía de tórax para demostrar reversibilidad": "La radiografía no documenta reversibilidad del flujo.",
-      "Provocación bronquial durante una crisis inestable": "La provocación no se realiza durante inestabilidad."
-    },
-    "ideaClave": "Las pruebas de provocación se reservan a situaciones seleccionadas."
-  },
-  {
-    "id": 5033,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Biomarcadores",
-    "pregunta": "Paciente tiene IgE y eosinófilos elevados, pero no se ha documentado variabilidad funcional. ¿Qué conclusión es correcta?",
-    "correcta_texto": "Los hallazgos apoyan caracterización T2, pero no confirman asma por sí solos",
-    "alternativas": [
-      "La IgE elevada sustituye la espirometría",
-      "La eosinofilia confirma asma aun con función estable",
-      "Los hallazgos apoyan caracterización T2, pero no confirman asma por sí solos",
-      "Ambos hallazgos demuestran obstrucción bronquial reversible"
-    ],
-    "feedbackIncorrecto": {
-      "La eosinofilia confirma asma aun con función estable": "La eosinofilia aislada no confirma asma.",
-      "La IgE elevada sustituye la espirometría": "La IgE no sustituye la evaluación funcional.",
-      "Ambos hallazgos demuestran obstrucción bronquial reversible": "No miden directamente obstrucción ni reversibilidad."
-    },
-    "ideaClave": "Fenotipo inflamatorio y diagnóstico funcional son conceptos distintos."
-  },
-  {
-    "id": 5034,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Tratamiento",
-    "pregunta": "Paciente usa salbutamol y mejora rápido la disnea, pero sigue con síntomas frecuentes durante la semana. ¿Qué componente probablemente permanece insuficientemente tratado?",
-    "correcta_texto": "Inflamación crónica de la vía aérea",
-    "alternativas": [
-      "Aumento de perfusión pulmonar",
-      "Disminución del volumen pulmonar por restricción",
-      "Inflamación crónica de la vía aérea",
-      "Broncoconstricción aguda como único problema"
-    ],
-    "feedbackIncorrecto": {
-      "Broncoconstricción aguda como único problema": "El SABA ya actúa sobre la broncoconstricción reversible.",
-      "Aumento de perfusión pulmonar": "La perfusión no es el blanco principal del tratamiento controlador.",
-      "Disminución del volumen pulmonar por restricción": "El asma no se define por restricción pulmonar primaria."
-    },
-    "ideaClave": "El alivio rápido no sustituye el control antiinflamatorio."
-  },
-  {
-    "id": 5035,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Ipratropio",
-    "pregunta": "En una exacerbación importante se añade ipratropio al salbutamol. ¿Qué fundamento fisiológico lo explica?",
-    "correcta_texto": "El bloqueo muscarínico complementa la broncodilatación β₂",
-    "alternativas": [
-      "El ipratropio reemplaza el uso de corticoide inhalado",
-      "Ambos reducen inflamación como mecanismo principal",
-      "Ambos fármacos actúan bloqueando IgE",
-      "El bloqueo muscarínico complementa la broncodilatación β₂"
-    ],
-    "feedbackIncorrecto": {
-      "Ambos fármacos actúan bloqueando IgE": "No son terapias anti-IgE.",
-      "Ambos reducen inflamación como mecanismo principal": "Su efecto inmediato principal es broncodilatador por vías distintas.",
-      "El ipratropio reemplaza el uso de corticoide inhalado": "SAMA no reemplaza al controlador antiinflamatorio."
-    },
-    "ideaClave": "Actúan sobre mecanismos broncomotores complementarios."
-  },
-  {
-    "id": 5036,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "LABA",
-    "pregunta": "¿Por qué el uso de LABA como monoterapia no se recomienda en asma?",
-    "correcta_texto": "Porque broncodilata pero no sustituye el control de la inflamación",
-    "alternativas": [
-      "Porque su único efecto es aumentar secreción mucosa",
-      "Porque no produce broncodilatación significativa",
-      "Porque broncodilata pero no sustituye el control de la inflamación",
-      "Porque bloquea la acción del corticoide inhalado"
-    ],
-    "feedbackIncorrecto": {
-      "Porque no produce broncodilatación significativa": "Sí produce broncodilatación sostenida.",
-      "Porque su único efecto es aumentar secreción mucosa": "No actúa principalmente aumentando moco.",
-      "Porque bloquea la acción del corticoide inhalado": "No bloquea al corticoide; el problema es que no controla por sí solo la inflamación."
-    },
-    "ideaClave": "En asma deben abordarse tanto broncoconstricción como inflamación."
-  },
-  {
-    "id": 5037,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Kinesiología",
-    "pregunta": "Un paciente estable evita ejercicio por temor a exacerbarse, pero tiene control clínico adecuado. ¿Qué intervención es más coherente?",
-    "correcta_texto": "Evaluar capacidad funcional y progresar ejercicio según tolerancia",
-    "alternativas": [
-      "Indicar reposo para evitar cualquier broncoconstricción",
-      "Evaluar capacidad funcional y progresar ejercicio según tolerancia",
-      "Realizar higiene bronquial diaria aunque no haya secreciones",
-      "Suspender el controlador antes de entrenar"
-    ],
-    "feedbackIncorrecto": {
-      "Indicar reposo para evitar cualquier broncoconstricción": "El ejercicio debe promoverse cuando el asma está controlada.",
-      "Realizar higiene bronquial diaria aunque no haya secreciones": "La higiene bronquial no se indica de rutina.",
-      "Suspender el controlador antes de entrenar": "El controlador no debe suspenderse por iniciar entrenamiento."
-    },
-    "ideaClave": "El entrenamiento progresivo forma parte del manejo funcional."
-  },
-  {
-    "id": 5038,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Kinesiología",
-    "pregunta": "Paciente asmático presenta secreciones retenidas y tos ineficaz. ¿Qué cambia en la indicación kinésica?",
-    "correcta_texto": "Puede existir indicación específica de técnicas de eliminación de secreciones",
-    "alternativas": [
-      "La higiene bronquial se vuelve obligatoria en todos los asmáticos",
-      "Las técnicas de secreciones reemplazan el broncodilatador",
-      "Puede existir indicación específica de técnicas de eliminación de secreciones",
-      "Debe suspenderse toda movilización hasta eliminar el moco"
-    ],
-    "feedbackIncorrecto": {
-      "La higiene bronquial se vuelve obligatoria en todos los asmáticos": "La indicación sigue siendo individualizada.",
-      "Debe suspenderse toda movilización hasta eliminar el moco": "La movilización depende del estado clínico y no está automáticamente contraindicada.",
-      "Las técnicas de secreciones reemplazan el broncodilatador": "Las técnicas no reemplazan farmacoterapia."
-    },
-    "ideaClave": "La indicación depende del problema funcional, no solo del diagnóstico."
-  },
-  {
-    "id": 5039,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Severidad",
-    "pregunta": "Paciente con crisis pasa de sibilancias audibles a murmullo muy disminuido, con somnolencia. ¿Qué interpretación es correcta?",
-    "correcta_texto": "El flujo puede haberse reducido críticamente y requiere evaluación urgente",
-    "alternativas": [
-      "La somnolencia refleja relajación beneficiosa",
-      "El flujo puede haberse reducido críticamente y requiere evaluación urgente",
-      "La crisis probablemente es leve porque hay menos ruido respiratorio",
-      "La disminución de sibilancias indica mejoría del broncoespasmo"
-    ],
-    "feedbackIncorrecto": {
-      "La disminución de sibilancias indica mejoría del broncoespasmo": "Menos sibilancias no siempre significa mejoría.",
-      "La somnolencia refleja relajación beneficiosa": "La somnolencia es señal de alarma.",
-      "La crisis probablemente es leve porque hay menos ruido respiratorio": "El silencio auscultatorio con dificultad respiratoria indica gravedad."
-    },
-    "ideaClave": "El tórax silencioso puede reflejar flujo extremadamente bajo."
-  },
-  {
-    "id": 5040,
-    "nivel": 2,
-    "bloom": "Aplicar",
-    "tema": "Trabajo",
-    "pregunta": "Trabajador presenta síntomas solo durante jornadas laborales y mejora en vacaciones. ¿Qué enfoque es más adecuado?",
-    "correcta_texto": "Investigar asma relacionada con el trabajo y documentar relación temporal",
-    "alternativas": [
-      "Considerar que el patrón laboral no aporta información diagnóstica",
-      "Descartar asma porque los síntomas desaparecen fuera del trabajo",
-      "Asumir que el mecanismo es siempre IgE",
-      "Investigar asma relacionada con el trabajo y documentar relación temporal"
-    ],
-    "feedbackIncorrecto": {
-      "Descartar asma porque los síntomas desaparecen fuera del trabajo": "La mejoría fuera del trabajo refuerza la sospecha.",
-      "Asumir que el mecanismo es siempre IgE": "Puede haber sensibilización o mecanismos irritativos.",
-      "Considerar que el patrón laboral no aporta información diagnóstica": "La relación temporal es un dato central."
-    },
-    "ideaClave": "La historia laboral es fundamental en el asma relacionada con el trabajo."
-  },
-  {
-    "id": 5041,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Integración T2",
-    "pregunta": "¿Cuál secuencia representa mejor la vía alérgica T2 descrita en el documento?",
-    "correcta_texto": "Alarminas epiteliales → Th2/ILC2 → IL-4/IL-5/IL-13 → IgE/eosinófilos → obstrucción",
-    "alternativas": [
-      "IL-5 → inhibición eosinofílica → menor hiperreactividad",
-      "Alarminas → neutrófilos → reducción de moco → broncodilatación",
-      "IgE → remodelado inmediato → desaparición de mastocitos",
-      "Alarminas epiteliales → Th2/ILC2 → IL-4/IL-5/IL-13 → IgE/eosinófilos → obstrucción"
-    ],
-    "feedbackIncorrecto": {
-      "Alarminas → neutrófilos → reducción de moco → broncodilatación": "No corresponde a la vía T2 descrita.",
-      "IgE → remodelado inmediato → desaparición de mastocitos": "El remodelado no es inmediato y la IgE no elimina mastocitos.",
-      "IL-5 → inhibición eosinofílica → menor hiperreactividad": "IL-5 favorece, no inhibe, la respuesta eosinofílica."
-    },
-    "ideaClave": "La vía T2 conecta señalización epitelial, inmunidad adaptativa e inflamación efectora."
-  },
-  {
-    "id": 5042,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Integración mecánica",
-    "pregunta": "¿Por qué broncoconstricción, edema y moco producen un aumento desproporcionado de resistencia?",
-    "correcta_texto": "Porque actúan simultáneamente reduciendo el radio efectivo de la vía aérea",
-    "alternativas": [
-      "Porque generan broncodilatación compensatoria en regiones vecinas",
-      "Porque actúan simultáneamente reduciendo el radio efectivo de la vía aérea",
-      "Porque disminuyen la densidad del gas y aumentan la distensibilidad",
-      "Porque aumentan en paralelo la perfusión y reducen la presión transpulmonar"
-    ],
-    "feedbackIncorrecto": {
-      "Porque aumentan en paralelo la perfusión y reducen la presión transpulmonar": "La perfusión no es el mecanismo común.",
-      "Porque disminuyen la densidad del gas y aumentan la distensibilidad": "No producen un aumento beneficioso de distensibilidad.",
-      "Porque generan broncodilatación compensatoria en regiones vecinas": "El efecto neto es estrechamiento, no broncodilatación compensatoria."
-    },
-    "ideaClave": "La reducción combinada del calibre amplifica la resistencia al flujo."
-  },
-  {
-    "id": 5043,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Constantes de tiempo",
-    "pregunta": "¿Por qué la obstrucción heterogénea produce vaciamiento desigual entre regiones?",
-    "correcta_texto": "Porque las unidades con mayor resistencia requieren más tiempo para vaciarse",
-    "alternativas": [
-      "Porque el moco aumenta por igual el radio de todas las vías",
-      "Porque todas las unidades tienen la misma resistencia pero distinta perfusión",
-      "Porque las unidades con mayor resistencia requieren más tiempo para vaciarse",
-      "Porque el vaciamiento depende exclusivamente del volumen sanguíneo pulmonar"
-    ],
-    "feedbackIncorrecto": {
-      "Porque todas las unidades tienen la misma resistencia pero distinta perfusión": "La heterogeneidad de resistencia es precisamente el problema.",
-      "Porque el vaciamiento depende exclusivamente del volumen sanguíneo pulmonar": "La mecánica ventilatoria depende de resistencia y compliance, no solo de perfusión.",
-      "Porque el moco aumenta por igual el radio de todas las vías": "El moco reduce y no uniformiza el radio."
-    },
-    "ideaClave": "Las diferencias regionales de resistencia generan constantes de tiempo distintas."
-  },
-  {
-    "id": 5044,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Hiperinsuflación",
-    "pregunta": "¿Qué cadena explica mejor la disnea por hiperinsuflación dinámica?",
-    "correcta_texto": "Vaciamiento incompleto → aumento del volumen final espiratorio → diafragma en desventaja → mayor trabajo inspiratorio",
-    "alternativas": [
-      "Aumento de perfusión → menor volumen pulmonar → mayor trabajo",
-      "Vaciamiento completo → menor volumen final → mayor auto-PEEP → disnea",
-      "Broncodilatación → mayor volumen final → fatiga diafragmática",
-      "Vaciamiento incompleto → aumento del volumen final espiratorio → diafragma en desventaja → mayor trabajo inspiratorio"
-    ],
-    "feedbackIncorrecto": {
-      "Vaciamiento completo → menor volumen final → mayor auto-PEEP → disnea": "La hiperinsuflación exige vaciamiento incompleto.",
-      "Broncodilatación → mayor volumen final → fatiga diafragmática": "La broncodilatación favorece vaciamiento, no atrapamiento.",
-      "Aumento de perfusión → menor volumen pulmonar → mayor trabajo": "La perfusión no explica el volumen pulmonar operativo."
-    },
-    "ideaClave": "La hiperinsuflación transforma un problema espiratorio en una carga inspiratoria."
-  },
-  {
-    "id": 5045,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Gasometría",
-    "pregunta": "¿Por qué una PaCO₂ de 40 mmHg puede ser preocupante en un paciente asmático exhausto si previamente estaba en 25 mmHg?",
-    "correcta_texto": "Porque la tendencia sugiere pérdida de hiperventilación compensatoria",
-    "alternativas": [
-      "Porque la tendencia sugiere pérdida de hiperventilación compensatoria",
-      "Porque 40 mmHg demuestra obstrucción resuelta",
-      "Porque el valor normal elimina la posibilidad de fatiga",
-      "Porque la PaCO₂ no cambia con la ventilación alveolar"
-    ],
-    "feedbackIncorrecto": {
-      "Porque 40 mmHg demuestra obstrucción resuelta": "El valor aislado no demuestra resolución.",
-      "Porque el valor normal elimina la posibilidad de fatiga": "En crisis grave el contexto hace que una PaCO₂ normal pueda ser anormalmente alta para ese paciente.",
-      "Porque la PaCO₂ no cambia con la ventilación alveolar": "La PaCO₂ depende de la ventilación alveolar."
-    },
-    "ideaClave": "La tendencia gasométrica debe interpretarse junto con el trabajo respiratorio."
-  },
-  {
-    "id": 5046,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "V/Q",
-    "pregunta": "¿Por qué la hipoxemia asmática suele responder al oxígeno aunque persista obstrucción?",
-    "correcta_texto": "Porque muchas unidades presentan ventilación reducida, no totalmente ausente",
-    "alternativas": [
-      "Porque muchas unidades presentan ventilación reducida, no totalmente ausente",
-      "Porque el oxígeno elimina la hiperreactividad bronquial",
-      "Porque el oxígeno relaja directamente el músculo liso",
-      "Porque la perfusión de las unidades afectadas desaparece"
-    ],
-    "feedbackIncorrecto": {
-      "Porque el oxígeno elimina la hiperreactividad bronquial": "El oxígeno no corrige la hiperreactividad.",
-      "Porque el oxígeno relaja directamente el músculo liso": "No es un broncodilatador.",
-      "Porque la perfusión de las unidades afectadas desaparece": "La perfusión suele mantenerse en unidades de baja V/Q."
-    },
-    "ideaClave": "La baja V/Q suele responder mejor al oxígeno que un shunt verdadero."
-  },
-  {
-    "id": 5047,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Remodelado",
-    "pregunta": "¿Cómo puede el remodelado explicar menor reversibilidad broncodilatadora?",
-    "correcta_texto": "Introduce un componente estructural persistente además del componente muscular reversible",
-    "alternativas": [
-      "Disminuye la matriz extracelular y mejora la elasticidad de la pared",
-      "Reduce la masa de músculo liso y aumenta la luz bronquial",
-      "Elimina por completo la inflamación y deja solo hiperreactividad",
-      "Introduce un componente estructural persistente además del componente muscular reversible"
-    ],
-    "feedbackIncorrecto": {
-      "Elimina por completo la inflamación y deja solo hiperreactividad": "El remodelado no elimina necesariamente la inflamación.",
-      "Reduce la masa de músculo liso y aumenta la luz bronquial": "Puede aumentar la masa de músculo liso.",
-      "Disminuye la matriz extracelular y mejora la elasticidad de la pared": "Puede aumentar la matriz extracelular."
-    },
-    "ideaClave": "La limitación del flujo puede combinar componentes reversibles y estructurales."
-  },
-  {
-    "id": 5048,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Fenotipos",
-    "pregunta": "¿Por qué una IgE normal no excluye asma?",
-    "correcta_texto": "Porque existen fenotipos no alérgicos y T2 bajos",
-    "alternativas": [
-      "Porque existen fenotipos no alérgicos y T2 bajos",
-      "Porque toda asma adulta es ocupacional",
-      "Porque la IgE nunca participa en el asma",
-      "Porque la IgE solo cambia durante una crisis"
-    ],
-    "feedbackIncorrecto": {
-      "Porque la IgE nunca participa en el asma": "La IgE sí participa en el asma alérgica.",
-      "Porque toda asma adulta es ocupacional": "El asma ocupacional es solo una posibilidad.",
-      "Porque la IgE solo cambia durante una crisis": "La normalidad de IgE puede coexistir con otros endotipos."
-    },
-    "ideaClave": "El asma es heterogénea y no todos los pacientes muestran el mismo perfil inflamatorio."
-  },
-  {
-    "id": 5049,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Diagnóstico",
-    "pregunta": "¿Por qué una prueba broncodilatadora negativa aislada no excluye asma?",
-    "correcta_texto": "Porque la variabilidad puede no estar presente el día de la medición",
-    "alternativas": [
-      "Porque solo el PEF puede demostrar variabilidad",
-      "Porque la variabilidad puede no estar presente el día de la medición",
-      "Porque la espirometría carece de utilidad en asma",
-      "Porque el VEF₁ no cambia nunca en esta enfermedad"
-    ],
-    "feedbackIncorrecto": {
-      "Porque la espirometría carece de utilidad en asma": "La espirometría es una herramienta central.",
-      "Porque el VEF₁ no cambia nunca en esta enfermedad": "El VEF₁ puede variar con la obstrucción.",
-      "Porque solo el PEF puede demostrar variabilidad": "PEF y espirometría son herramientas complementarias."
-    },
-    "ideaClave": "La enfermedad puede estar funcionalmente normal entre episodios."
-  },
-  {
-    "id": 5050,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Biomarcadores",
-    "pregunta": "¿Qué error conceptual se comete al diagnosticar asma solo por eosinofilia?",
-    "correcta_texto": "Confundir caracterización inflamatoria con demostración de variabilidad funcional",
-    "alternativas": [
-      "Confundir caracterización inflamatoria con demostración de variabilidad funcional",
-      "Confundir broncoconstricción con vasoconstricción",
-      "Confundir obstrucción fija con restricción",
-      "Confundir hipoxemia con hipercapnia"
-    ],
-    "feedbackIncorrecto": {
-      "Confundir obstrucción fija con restricción": "Ese error es distinto al uso inadecuado del biomarcador.",
-      "Confundir hipoxemia con hipercapnia": "No es el problema central del razonamiento.",
-      "Confundir broncoconstricción con vasoconstricción": "No corresponde a la limitación diagnóstica de la eosinofilia."
-    },
-    "ideaClave": "Los biomarcadores no sustituyen la evidencia clínica-funcional."
-  },
-  {
-    "id": 5051,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Tratamiento",
-    "pregunta": "¿Qué diferencia fisiopatológica hay entre budesonida y salbutamol?",
-    "correcta_texto": "Budesonida reduce inflamación/edema; salbutamol relaja músculo liso",
-    "alternativas": [
-      "Ambos son antiinflamatorios sistémicos",
-      "Ambos actúan principalmente sobre receptores β₂",
-      "Budesonida reduce inflamación/edema; salbutamol relaja músculo liso",
-      "Ambos bloquean receptores muscarínicos"
-    ],
-    "feedbackIncorrecto": {
-      "Ambos actúan principalmente sobre receptores β₂": "Budesonida es un corticoide, no un agonista β₂.",
-      "Ambos bloquean receptores muscarínicos": "Ese mecanismo corresponde a SAMA.",
-      "Ambos son antiinflamatorios sistémicos": "Salbutamol no es antiinflamatorio sistémico."
-    },
-    "ideaClave": "Controlador y broncodilatador actúan sobre mecanismos distintos."
-  },
-  {
-    "id": 5052,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Tratamiento",
-    "pregunta": "¿Qué ventaja mecanística tiene budesonida/formoterol respecto de un LABA aislado?",
-    "correcta_texto": "Combina acción antiinflamatoria y broncodilatadora",
-    "alternativas": [
-      "Combina acción antiinflamatoria y broncodilatadora",
-      "Combina antibiótico y broncodilatador",
-      "Combina reducción de moco con antagonismo leucotriénico",
-      "Combina bloqueo muscarínico y acción anti-IgE"
-    ],
-    "feedbackIncorrecto": {
-      "Combina bloqueo muscarínico y acción anti-IgE": "No incluye esos mecanismos.",
-      "Combina antibiótico y broncodilatador": "No contiene antibiótico.",
-      "Combina reducción de moco con antagonismo leucotriénico": "No es una combinación antileucotrieno."
-    },
-    "ideaClave": "La combinación aborda inflamación y broncoconstricción."
-  },
-  {
-    "id": 5053,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Ipratropio",
-    "pregunta": "¿Por qué ipratropio puede complementar a salbutamol en una exacerbación importante?",
-    "correcta_texto": "Porque bloquea el componente colinérgico mientras el salbutamol activa β₂",
-    "alternativas": [
-      "Porque ambos estimulan β₂ por vías distintas",
-      "Porque el ipratropio reduce IgE y el salbutamol eosinófilos",
-      "Porque ambos son corticoides de acción rápida",
-      "Porque bloquea el componente colinérgico mientras el salbutamol activa β₂"
-    ],
-    "feedbackIncorrecto": {
-      "Porque ambos estimulan β₂ por vías distintas": "Ipratropio no es agonista β₂.",
-      "Porque ambos son corticoides de acción rápida": "Ninguno es corticoide.",
-      "Porque el ipratropio reduce IgE y el salbutamol eosinófilos": "No son terapias dirigidas a IgE/eosinófilos."
-    },
-    "ideaClave": "Los mecanismos broncodilatadores son complementarios."
-  },
-  {
-    "id": 5054,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Ocupacional",
-    "pregunta": "¿Por qué la mejoría de síntomas en vacaciones fortalece la sospecha de asma relacionada con el trabajo?",
-    "correcta_texto": "Porque aporta una relación temporal exposición-síntoma",
-    "alternativas": [
-      "Porque aporta una relación temporal exposición-síntoma",
-      "Porque demuestra automáticamente un mecanismo mediado por IgE",
-      "Porque excluye cualquier otra forma de asma",
-      "Porque confirma que no existe hiperreactividad bronquial"
-    ],
-    "feedbackIncorrecto": {
-      "Porque demuestra automáticamente un mecanismo mediado por IgE": "La exposición laboral puede actuar por sensibilización o irritación.",
-      "Porque excluye cualquier otra forma de asma": "Puede coexistir con otros fenotipos.",
-      "Porque confirma que no existe hiperreactividad bronquial": "La hiperreactividad puede estar presente."
-    },
-    "ideaClave": "La relación temporal con el trabajo es un dato causal importante, aunque no exclusivo."
-  },
-  {
-    "id": 5055,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Obesidad",
-    "pregunta": "¿Por qué la obesidad puede aumentar disnea sin que toda la explicación sea broncoespasmo?",
-    "correcta_texto": "Puede añadir carga mecánica y modificar la percepción de síntomas",
-    "alternativas": [
-      "Porque reduce el trabajo respiratorio",
-      "Porque convierte toda obstrucción en restricción fija",
-      "Puede añadir carga mecánica y modificar la percepción de síntomas",
-      "Porque siempre produce sensibilización alérgica"
-    ],
-    "feedbackIncorrecto": {
-      "Porque siempre produce sensibilización alérgica": "No todo asma asociada a obesidad es alérgica.",
-      "Porque reduce el trabajo respiratorio": "La carga mecánica puede aumentar, no reducir, el trabajo.",
-      "Porque convierte toda obstrucción en restricción fija": "No transforma obligatoriamente el patrón funcional en restricción fija."
-    },
-    "ideaClave": "Las comorbilidades pueden amplificar síntomas por mecanismos adicionales."
-  },
-  {
-    "id": 5056,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Kinesiología",
-    "pregunta": "¿Por qué es importante revisar técnica inhalatoria en una evaluación kinésica?",
-    "correcta_texto": "Porque una mala técnica puede reducir el depósito pulmonar y simular mal control",
-    "alternativas": [
-      "Porque la técnica modifica el fenotipo inflamatorio",
-      "Porque una mala técnica puede reducir el depósito pulmonar y simular mal control",
-      "Porque todos los inhaladores se usan igual y basta verificar adherencia",
-      "Porque permite reemplazar el controlador por ejercicios"
-    ],
-    "feedbackIncorrecto": {
-      "Porque todos los inhaladores se usan igual y basta verificar adherencia": "Los dispositivos requieren técnicas específicas.",
-      "Porque la técnica modifica el fenotipo inflamatorio": "La técnica no redefine el endotipo.",
-      "Porque permite reemplazar el controlador por ejercicios": "No sustituye la farmacoterapia."
-    },
-    "ideaClave": "La técnica inhalatoria es un factor modificable de eficacia terapéutica."
-  },
-  {
-    "id": 5057,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Kinesiología",
-    "pregunta": "¿Por qué debe diferenciarse broncoconstricción inducida por ejercicio de desacondicionamiento?",
-    "correcta_texto": "Porque ambas limitan el esfuerzo, pero tienen mecanismos e intervenciones diferentes",
-    "alternativas": [
-      "Porque el ejercicio nunca desencadena broncoconstricción",
-      "Porque ambas se tratan exclusivamente con broncodilatador",
-      "Porque el desacondicionamiento siempre produce sibilancias",
-      "Porque ambas limitan el esfuerzo, pero tienen mecanismos e intervenciones diferentes"
-    ],
-    "feedbackIncorrecto": {
-      "Porque el desacondicionamiento siempre produce sibilancias": "El desacondicionamiento puede producir disnea sin sibilancias.",
-      "Porque ambas se tratan exclusivamente con broncodilatador": "El manejo depende del mecanismo.",
-      "Porque el ejercicio nunca desencadena broncoconstricción": "El ejercicio puede desencadenar síntomas en asma."
-    },
-    "ideaClave": "La disnea de esfuerzo requiere análisis diferencial."
-  },
-  {
-    "id": 5058,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Severidad",
-    "pregunta": "¿Por qué el silencio auscultatorio puede representar una crisis más grave que sibilancias intensas?",
-    "correcta_texto": "Porque el flujo puede ser tan bajo que ya no genere sonidos audibles",
-    "alternativas": [
-      "Porque el flujo puede ser tan bajo que ya no genere sonidos audibles",
-      "Porque las sibilancias aparecen solo cuando no hay obstrucción",
-      "Porque el murmullo disminuido significa menor resistencia",
-      "Porque el silencio indica broncodilatación máxima"
-    ],
-    "feedbackIncorrecto": {
-      "Porque el silencio indica broncodilatación máxima": "En un paciente exhausto puede indicar obstrucción crítica.",
-      "Porque las sibilancias aparecen solo cuando no hay obstrucción": "Las sibilancias se producen en vías estrechas con flujo.",
-      "Porque el murmullo disminuido significa menor resistencia": "Menor ruido no implica menor resistencia."
-    },
-    "ideaClave": "La auscultación debe interpretarse junto con esfuerzo y estado mental."
-  },
-  {
-    "id": 5059,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Integración clínica",
-    "pregunta": "¿Qué cadena integra mejor inflamación y mecánica en asma?",
-    "correcta_texto": "Inflamación/hiperreactividad → menor calibre → mayor resistencia → vaciamiento incompleto → disnea",
-    "alternativas": [
-      "Hiperreactividad → broncodilatación → atrapamiento",
-      "Moco → mayor V/Q → alivio de síntomas",
-      "Inflamación → mayor calibre → menor resistencia → hipoxemia",
-      "Inflamación/hiperreactividad → menor calibre → mayor resistencia → vaciamiento incompleto → disnea"
-    ],
-    "feedbackIncorrecto": {
-      "Inflamación → mayor calibre → menor resistencia → hipoxemia": "La inflamación reduce el calibre.",
-      "Hiperreactividad → broncodilatación → atrapamiento": "La hiperreactividad favorece broncoconstricción.",
-      "Moco → mayor V/Q → alivio de síntomas": "El moco empeora ventilación."
-    },
-    "ideaClave": "La fisiopatología conecta procesos celulares con mecánica respiratoria."
-  },
-  {
-    "id": 5060,
-    "nivel": 3,
-    "bloom": "Analizar",
-    "tema": "Control",
-    "pregunta": "Paciente con síntomas nocturnos frecuentes pero espirometría casi normal. ¿Qué conclusión es más correcta?",
-    "correcta_texto": "El control clínico puede ser insuficiente aunque la función sea casi normal ese día",
-    "alternativas": [
-      "La espirometría normal demuestra buen control",
-      "El control clínico puede ser insuficiente aunque la función sea casi normal ese día",
-      "La ausencia de obstrucción fija permite suspender el controlador",
-      "Los síntomas nocturnos carecen de valor si el VEF₁ es normal"
-    ],
-    "feedbackIncorrecto": {
-      "La espirometría normal demuestra buen control": "El control no se reduce a una sola espirometría.",
-      "Los síntomas nocturnos carecen de valor si el VEF₁ es normal": "Los síntomas nocturnos son relevantes.",
-      "La ausencia de obstrucción fija permite suspender el controlador": "La ausencia de obstrucción fija no implica ausencia de inflamación."
-    },
-    "ideaClave": "Control clínico y función pulmonar no son equivalentes."
-  },
-  {
-    "id": 5061,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso T2",
-    "pregunta": "Un adulto con asma alérgica desarrolla sibilancias minutos después de exposición a ácaros y, seis horas después, persisten tos, moco y broncoespasmo. ¿Cuál explicación integra mejor la evolución?",
-    "correcta_texto": "Respuesta inmediata mastocitaria seguida de una fase tardía inflamatoria",
-    "alternativas": [
-      "Hiperventilación inicial seguida de fibrosis de la vía aérea",
-      "Respuesta inmediata mastocitaria seguida de una fase tardía inflamatoria",
-      "Respuesta vagal aislada seguida de resolución inmunológica",
-      "Broncoconstricción puramente mecánica seguida de remodelado estructural completo"
-    ],
-    "feedbackIncorrecto": {
-      "Broncoconstricción puramente mecánica seguida de remodelado estructural completo": "El remodelado estructural no se establece en horas.",
-      "Respuesta vagal aislada seguida de resolución inmunológica": "La vía vagal puede contribuir, pero no explica toda la fase tardía inflamatoria.",
-      "Hiperventilación inicial seguida de fibrosis de la vía aérea": "La fibrosis no aparece en ese intervalo."
-    },
-    "ideaClave": "Las fases inmediata y tardía explican persistencia sintomática tras la exposición."
-  },
-  {
-    "id": 5062,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso mecánico",
-    "pregunta": "Paciente con crisis severa tiene FR 38/min, espiración muy prolongada y tórax hiperinsuflado. ¿Qué cambio fisiopatológico explica mejor el aumento progresivo del trabajo respiratorio?",
-    "correcta_texto": "Vaciamiento incompleto con hiperinsuflación dinámica y auto-PEEP",
-    "alternativas": [
-      "Vaciamiento incompleto con hiperinsuflación dinámica y auto-PEEP",
-      "Disminución de resistencia bronquial con mayor atrapamiento",
-      "Reducción del volumen final espiratorio con acortamiento diafragmático",
-      "Aumento de distensibilidad que exige más presión inspiratoria"
-    ],
-    "feedbackIncorrecto": {
-      "Aumento de distensibilidad que exige más presión inspiratoria": "La hiperinsuflación no se debe a una mayor distensibilidad beneficiosa.",
-      "Reducción del volumen final espiratorio con acortamiento diafragmático": "El volumen final espiratorio aumenta.",
-      "Disminución de resistencia bronquial con mayor atrapamiento": "El atrapamiento ocurre con resistencia elevada, no reducida."
-    },
-    "ideaClave": "La hiperinsuflación añade carga umbral y reduce la eficiencia diafragmática."
-  },
-  {
-    "id": 5063,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso gasométrico",
-    "pregunta": "Durante una crisis grave, la PaCO₂ cambia de 26 a 43 mmHg mientras el paciente sigue taquipneico y muestra agotamiento. ¿Qué interpretación debe priorizarse?",
-    "correcta_texto": "Deterioro de la ventilación alveolar efectiva con riesgo de fatiga",
-    "alternativas": [
-      "Normalización fisiológica que indica resolución",
-      "Mejoría de la relación V/Q con recuperación ventilatoria",
-      "Aumento compensatorio de CO₂ sin repercusión clínica",
-      "Deterioro de la ventilación alveolar efectiva con riesgo de fatiga"
-    ],
-    "feedbackIncorrecto": {
-      "Normalización fisiológica que indica resolución": "En este contexto la tendencia ascendente es preocupante.",
-      "Mejoría de la relación V/Q con recuperación ventilatoria": "La PaCO₂ no demuestra normalización de V/Q.",
-      "Aumento compensatorio de CO₂ sin repercusión clínica": "No es una compensación inocua cuando existe agotamiento."
-    },
-    "ideaClave": "La tendencia de PaCO₂ es clave en crisis grave."
-  },
-  {
-    "id": 5064,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso V/Q",
-    "pregunta": "Paciente asmático presenta SpO₂ baja, radiografía sin infiltrados y obstrucción muy heterogénea. ¿Cuál mecanismo explica mejor la hipoxemia?",
-    "correcta_texto": "Unidades con ventilación reducida y perfusión relativamente conservada",
-    "alternativas": [
-      "Fibrosis intersticial aguda con limitación de difusión",
-      "Unidades con perfusión ausente y ventilación conservada",
-      "Lesión alveolar difusa con shunt anatómico fijo",
-      "Unidades con ventilación reducida y perfusión relativamente conservada"
-    ],
-    "feedbackIncorrecto": {
-      "Unidades con perfusión ausente y ventilación conservada": "Eso corresponde más a espacio muerto.",
-      "Lesión alveolar difusa con shunt anatómico fijo": "No es el mecanismo típico del asma.",
-      "Fibrosis intersticial aguda con limitación de difusión": "La fibrosis aguda no explica una crisis asmática."
-    },
-    "ideaClave": "La baja V/Q es el mecanismo esperado en obstrucción regional desigual."
-  },
-  {
-    "id": 5065,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso diagnóstico",
-    "pregunta": "Adulto con episodios de sibilancias nocturnas y disnea al ejercicio tiene espirometría normal en consulta. ¿Cuál es el siguiente paso más razonable?",
-    "correcta_texto": "Intentar documentar variabilidad con repetición funcional, PEF seriado o provocación seleccionada",
-    "alternativas": [
-      "Intentar documentar variabilidad con repetición funcional, PEF seriado o provocación seleccionada",
-      "Confirmar asma exclusivamente por la clínica",
-      "Descartar asma porque la prueba basal fue normal",
-      "Indicar biológico porque la espirometría no demuestra obstrucción"
-    ],
-    "feedbackIncorrecto": {
-      "Descartar asma porque la prueba basal fue normal": "La función puede normalizarse entre episodios.",
-      "Confirmar asma exclusivamente por la clínica": "La clínica orienta, pero se busca evidencia objetiva cuando es posible.",
-      "Indicar biológico porque la espirometría no demuestra obstrucción": "Los biológicos no se indican sin caracterización y gravedad."
-    },
-    "ideaClave": "Una medición normal aislada no resuelve un trastorno variable."
-  },
-  {
-    "id": 5066,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso biomarcadores",
-    "pregunta": "Paciente tiene eosinofilia, FeNO elevado e IgE alta, pero no se ha demostrado variabilidad del flujo. ¿Qué afirmación es más rigurosa?",
-    "correcta_texto": "Los hallazgos apoyan un perfil T2, pero aún deben integrarse con evidencia clínica-funcional",
-    "alternativas": [
-      "Los biomarcadores confirman asma aunque la función sea estable",
-      "La eosinofilia demuestra obstrucción espiratoria variable",
-      "Los hallazgos apoyan un perfil T2, pero aún deben integrarse con evidencia clínica-funcional",
-      "La IgE elevada reemplaza la evaluación de reversibilidad"
-    ],
-    "feedbackIncorrecto": {
-      "Los biomarcadores confirman asma aunque la función sea estable": "Ningún biomarcador aislado confirma asma.",
-      "La IgE elevada reemplaza la evaluación de reversibilidad": "La IgE no sustituye la evaluación funcional.",
-      "La eosinofilia demuestra obstrucción espiratoria variable": "La eosinofilia no mide obstrucción."
-    },
-    "ideaClave": "Caracterización inflamatoria y diagnóstico funcional son dimensiones distintas."
-  },
-  {
-    "id": 5067,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso control",
-    "pregunta": "Paciente con síntomas nocturnos frecuentes y uso diario de rescate tiene VEF₁ cercano a normal. ¿Cuál conclusión es más adecuada?",
-    "correcta_texto": "El asma está insuficientemente controlada pese a una función casi normal ese día",
-    "alternativas": [
-      "La ausencia de obstrucción basal permite suspender controlador",
-      "Los síntomas nocturnos son irrelevantes si no hay obstrucción fija",
-      "El asma está insuficientemente controlada pese a una función casi normal ese día",
-      "El asma está controlada porque el VEF₁ es normal"
-    ],
-    "feedbackIncorrecto": {
-      "El asma está controlada porque el VEF₁ es normal": "El control incluye síntomas y riesgo, no solo función.",
-      "Los síntomas nocturnos son irrelevantes si no hay obstrucción fija": "Los síntomas nocturnos sí son relevantes.",
-      "La ausencia de obstrucción basal permite suspender controlador": "La ausencia de obstrucción fija no significa ausencia de inflamación."
-    },
-    "ideaClave": "Control clínico y función pulmonar deben evaluarse en conjunto."
-  },
-  {
-    "id": 5068,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso técnica",
-    "pregunta": "Paciente persiste sintomático con tratamiento prescrito, pero la observación muestra errores importantes de técnica inhalatoria. ¿Qué debe hacerse antes de escalar tratamiento?",
-    "correcta_texto": "Corregir técnica y reevaluar respuesta",
-    "alternativas": [
-      "Añadir higiene bronquial aunque no haya secreciones",
-      "Duplicar dosis manteniendo la misma técnica",
-      "Suspender el controlador y mantener solo rescate",
-      "Corregir técnica y reevaluar respuesta"
-    ],
-    "feedbackIncorrecto": {
-      "Duplicar dosis manteniendo la misma técnica": "Escalar sin corregir técnica puede llevar a sobretratamiento.",
-      "Suspender el controlador y mantener solo rescate": "Suspender el controlador puede empeorar la inflamación.",
-      "Añadir higiene bronquial aunque no haya secreciones": "No existe indicación rutinaria de higiene bronquial."
-    },
-    "ideaClave": "La técnica inhalatoria es un factor modificable de eficacia."
-  },
-  {
-    "id": 5069,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso tratamiento",
-    "pregunta": "Paciente usa salbutamol con alivio breve, pero presenta síntomas casi diarios. ¿Qué problema fisiopatológico sigue requiriendo tratamiento de base?",
-    "correcta_texto": "Inflamación crónica de la vía aérea",
-    "alternativas": [
-      "Inflamación crónica de la vía aérea",
-      "Broncoconstricción como único mecanismo",
-      "Perfusión pulmonar aumentada",
-      "Restricción pulmonar progresiva"
-    ],
-    "feedbackIncorrecto": {
-      "Broncoconstricción como único mecanismo": "El SABA ya actúa sobre broncoconstricción rápida.",
-      "Perfusión pulmonar aumentada": "No es el problema central descrito.",
-      "Restricción pulmonar progresiva": "El asma no se define por restricción progresiva."
-    },
-    "ideaClave": "El tratamiento de base debe abordar la inflamación además del broncoespasmo."
-  },
-  {
-    "id": 5070,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso farmacológico",
-    "pregunta": "En una exacerbación importante se administra salbutamol e ipratropio. ¿Qué justifica esta combinación?",
-    "correcta_texto": "Actúan por vías broncomotoras diferentes y complementarias",
-    "alternativas": [
-      "Ambos son antiinflamatorios inhalados",
-      "Ambos inhiben leucotrienos",
-      "Actúan por vías broncomotoras diferentes y complementarias",
-      "Ambos bloquean IgE por mecanismos distintos"
-    ],
-    "feedbackIncorrecto": {
-      "Ambos bloquean IgE por mecanismos distintos": "No son terapias anti-IgE.",
-      "Ambos son antiinflamatorios inhalados": "No son corticoides.",
-      "Ambos inhiben leucotrienos": "No son antileucotrienos."
-    },
-    "ideaClave": "β₂ agonismo y bloqueo muscarínico pueden sumar broncodilatación."
-  },
-  {
-    "id": 5071,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso biológico",
-    "pregunta": "Paciente con asma grave, exacerbaciones frecuentes y fenotipo T2 caracterizado sigue sintomático pese al manejo convencional. ¿Qué principio es correcto respecto de biológicos?",
-    "correcta_texto": "Su indicación requiere gravedad y fenotipo/endotipo elegible",
-    "alternativas": [
-      "La eosinofilia aislada define automáticamente el biológico",
-      "Los biológicos reemplazan de forma rutinaria la terapia inhalada",
-      "Su indicación requiere gravedad y fenotipo/endotipo elegible",
-      "Toda IgE elevada obliga a indicar omalizumab"
-    ],
-    "feedbackIncorrecto": {
-      "Toda IgE elevada obliga a indicar omalizumab": "La IgE aislada no basta.",
-      "La eosinofilia aislada define automáticamente el biológico": "La selección depende de múltiples criterios.",
-      "Los biológicos reemplazan de forma rutinaria la terapia inhalada": "Los biológicos se integran al manejo, no reemplazan automáticamente todo tratamiento."
-    },
-    "ideaClave": "Las terapias biológicas son dirigidas y requieren selección de pacientes."
-  },
-  {
-    "id": 5072,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso ocupacional",
-    "pregunta": "Trabajador presenta síntomas que aparecen en turno laboral y disminuyen en fines de semana y vacaciones. ¿Qué estrategia diagnóstica es más pertinente?",
-    "correcta_texto": "Correlacionar exposición y síntomas y buscar variabilidad objetiva relacionada con el trabajo",
-    "alternativas": [
-      "Descartar asma porque los síntomas son intermitentes",
-      "Asumir que es asma alérgica mediada por IgE sin más evaluación",
-      "Considerar que la mejoría fuera del trabajo hace improbable relación ocupacional",
-      "Correlacionar exposición y síntomas y buscar variabilidad objetiva relacionada con el trabajo"
-    ],
-    "feedbackIncorrecto": {
-      "Descartar asma porque los síntomas son intermitentes": "La intermitencia puede apoyar una relación con exposición.",
-      "Asumir que es asma alérgica mediada por IgE sin más evaluación": "Puede haber mecanismos sensibilizantes o irritativos.",
-      "Considerar que la mejoría fuera del trabajo hace improbable relación ocupacional": "La mejoría fuera del trabajo aumenta la sospecha ocupacional."
-    },
-    "ideaClave": "El patrón temporal exposición-síntoma es central."
-  },
-  {
-    "id": 5073,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso obesidad",
-    "pregunta": "Paciente con obesidad y asma refiere disnea desproporcionada al grado de obstrucción. ¿Cuál interpretación es más completa?",
-    "correcta_texto": "La disnea puede reflejar asma más carga mecánica y comorbilidad asociada a obesidad",
-    "alternativas": [
-      "La disnea puede reflejar asma más carga mecánica y comorbilidad asociada a obesidad",
-      "La obesidad excluye asma como causa de disnea",
-      "Toda la disnea debe atribuirse a broncoespasmo",
-      "Una obstrucción moderada no puede generar síntomas importantes"
-    ],
-    "feedbackIncorrecto": {
-      "Toda la disnea debe atribuirse a broncoespasmo": "La disnea puede ser multifactorial.",
-      "La obesidad excluye asma como causa de disnea": "Ambas condiciones pueden coexistir.",
-      "Una obstrucción moderada no puede generar síntomas importantes": "La percepción y carga mecánica pueden amplificar síntomas."
-    },
-    "ideaClave": "Las comorbilidades deben integrarse al razonamiento clínico."
-  },
-  {
-    "id": 5074,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso Kinesiología",
-    "pregunta": "Paciente estable con asma controlada evita ejercicio por temor a una crisis, sin secreciones retenidas. ¿Qué plan kinésico es más coherente?",
-    "correcta_texto": "Evaluación funcional, educación y entrenamiento progresivo ajustado al estado clínico",
-    "alternativas": [
-      "Evaluación funcional, educación y entrenamiento progresivo ajustado al estado clínico",
-      "Reposo prolongado para prevenir broncoconstricción",
-      "Suspensión del tratamiento controlador durante el ejercicio",
-      "Higiene bronquial rutinaria antes de toda sesión"
-    ],
-    "feedbackIncorrecto": {
-      "Higiene bronquial rutinaria antes de toda sesión": "No existe indicación rutinaria sin secreciones.",
-      "Reposo prolongado para prevenir broncoconstricción": "El reposo favorece desacondicionamiento.",
-      "Suspensión del tratamiento controlador durante el ejercicio": "El controlador no debe suspenderse por entrenar."
-    },
-    "ideaClave": "El objetivo es recuperar capacidad funcional de forma segura."
-  },
-  {
-    "id": 5075,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso Kinesiología",
-    "pregunta": "Paciente asmático presenta secreciones retenidas y tos ineficaz. ¿Qué afirmación es más adecuada?",
-    "correcta_texto": "La higiene bronquial puede indicarse por el problema de secreciones, no por el diagnóstico de asma en sí",
-    "alternativas": [
-      "Las técnicas de secreciones sustituyen la broncodilatación",
-      "La higiene bronquial puede indicarse por el problema de secreciones, no por el diagnóstico de asma en sí",
-      "La higiene bronquial debe indicarse a todo paciente asmático",
-      "La presencia de secreciones obliga a suspender toda movilización"
-    ],
-    "feedbackIncorrecto": {
-      "La higiene bronquial debe indicarse a todo paciente asmático": "La indicación debe individualizarse.",
-      "Las técnicas de secreciones sustituyen la broncodilatación": "No reemplazan el tratamiento farmacológico.",
-      "La presencia de secreciones obliga a suspender toda movilización": "La movilización depende de estabilidad y tolerancia."
-    },
-    "ideaClave": "La intervención kinésica se basa en hallazgos funcionales concretos."
-  },
-  {
-    "id": 5076,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso crisis",
-    "pregunta": "Paciente con exacerbación grave presenta hipoxemia, dificultad para hablar, agotamiento y alteración de conciencia. ¿Cuál es la prioridad inmediata?",
-    "correcta_texto": "Reconocer gravedad y facilitar atención protocolizada sin aumentar el trabajo respiratorio",
-    "alternativas": [
-      "Realizar provocación con ejercicio para cuantificar la obstrucción",
-      "Reconocer gravedad y facilitar atención protocolizada sin aumentar el trabajo respiratorio",
-      "Priorizar técnicas de higiene bronquial aunque no existan secreciones",
-      "Iniciar entrenamiento muscular inspiratorio"
-    ],
-    "feedbackIncorrecto": {
-      "Iniciar entrenamiento muscular inspiratorio": "No corresponde durante inestabilidad.",
-      "Realizar provocación con ejercicio para cuantificar la obstrucción": "Está contraindicada en crisis grave.",
-      "Priorizar técnicas de higiene bronquial aunque no existan secreciones": "No debe retrasar la estabilización."
-    },
-    "ideaClave": "En crisis grave, seguridad y soporte preceden a la rehabilitación."
-  },
-  {
-    "id": 5077,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso diferencial",
-    "pregunta": "Paciente con disnea de esfuerzo persiste sintomático, pero no se demuestra broncoconstricción inducida por ejercicio. ¿Qué razonamiento es más adecuado?",
-    "correcta_texto": "Considerar desacondicionamiento, disfunción laríngea inducible u otras causas",
-    "alternativas": [
-      "Asumir que todo síntoma de esfuerzo es asma no controlada",
-      "Aumentar broncodilatador sin reevaluar el mecanismo",
-      "Considerar desacondicionamiento, disfunción laríngea inducible u otras causas",
-      "Descartar toda causa funcional porque el paciente tiene diagnóstico de asma"
-    ],
-    "feedbackIncorrecto": {
-      "Asumir que todo síntoma de esfuerzo es asma no controlada": "La disnea puede ser multifactorial.",
-      "Aumentar broncodilatador sin reevaluar el mecanismo": "El tratamiento debe corresponder al mecanismo.",
-      "Descartar toda causa funcional porque el paciente tiene diagnóstico de asma": "El diagnóstico de asma no excluye otras causas."
-    },
-    "ideaClave": "La disnea de esfuerzo requiere diagnóstico diferencial."
-  },
-  {
-    "id": 5078,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso remodelado",
-    "pregunta": "Paciente con años de asma presenta limitación persistente del flujo aun fuera de crisis y menor reversibilidad que antes. ¿Qué mecanismo debe considerarse?",
-    "correcta_texto": "Remodelado estructural de la vía aérea",
-    "alternativas": [
-      "Respuesta inmediata mastocitaria persistente de forma continua",
-      "Exposición aguda a aire frío como único mecanismo",
-      "Hiperventilación compensatoria mantenida",
-      "Remodelado estructural de la vía aérea"
-    ],
-    "feedbackIncorrecto": {
-      "Respuesta inmediata mastocitaria persistente de forma continua": "La fase inmediata es aguda y episódica.",
-      "Exposición aguda a aire frío como único mecanismo": "Un desencadenante no explica una limitación persistente fuera de exposición.",
-      "Hiperventilación compensatoria mantenida": "La hiperventilación no produce remodelado."
+      "Disminución de matriz y músculo liso": "El remodelado aumenta varios componentes estructurales.",
+      "Desaparición de células caliciformes": "Puede existir hiperplasia de células caliciformes.",
+      "Aumento permanente del diámetro bronquial": "Puede favorecer estrechamiento persistente."
     },
     "ideaClave": "El remodelado puede dejar un componente menos reversible."
   },
   {
-    "id": 5079,
-    "nivel": 4,
-    "bloom": "Evaluar",
-    "tema": "Caso integración",
-    "pregunta": "Paciente con broncoconstricción, edema y moco desarrolla atrapamiento, auto-PEEP y PaCO₂ ascendente. ¿Cuál secuencia explica mejor el deterioro?",
-    "correcta_texto": "Mayor resistencia → vaciamiento incompleto → hiperinsuflación → aumento del trabajo → fatiga ventilatoria",
+    "id": 8020,
+    "nivel": 2,
+    "bloom": "Aplicar",
+    "tema": "Moco",
+    "pregunta": "Un broncodilatador mejora parcialmente el flujo, pero persiste obstrucción regional. ¿Qué mecanismo puede explicarlo?",
+    "correcta_texto": "Tapones de moco y edema que continúan reduciendo la luz",
     "alternativas": [
-      "Moco → reducción de resistencia → mejora V/Q → hipercapnia",
-      "Edema → aumento del calibre → hiperinsuflación → fatiga",
-      "Mayor resistencia → vaciamiento incompleto → hiperinsuflación → aumento del trabajo → fatiga ventilatoria",
-      "Mayor resistencia → vaciamiento más rápido → menor volumen final → hipercapnia"
+      "Eliminación completa de la hiperreactividad",
+      "Aumento del radio por secreciones",
+      "Tapones de moco y edema que continúan reduciendo la luz",
+      "Disminución de permeabilidad con mayor edema"
     ],
     "feedbackIncorrecto": {
-      "Mayor resistencia → vaciamiento más rápido → menor volumen final → hipercapnia": "La resistencia retrasa el vaciamiento.",
-      "Edema → aumento del calibre → hiperinsuflación → fatiga": "El edema reduce el calibre.",
-      "Moco → reducción de resistencia → mejora V/Q → hipercapnia": "El moco aumenta resistencia y empeora ventilación."
+      "Aumento del radio por secreciones": "El moco reduce el lumen.",
+      "Disminución de permeabilidad con mayor edema": "Menor permeabilidad reduciría edema.",
+      "Eliminación completa de la hiperreactividad": "La hiperreactividad no desaparece de inmediato."
     },
-    "ideaClave": "La crisis grave puede progresar desde obstrucción a fatiga."
+    "ideaClave": "La obstrucción no depende solo del músculo liso."
   },
   {
-    "id": 5080,
+    "id": 8021,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Integración T2",
+    "pregunta": "¿Cuál secuencia integra mejor la respuesta T2 y la obstrucción bronquial?",
+    "correcta_texto": "Alarminas → Th2/ILC2 → IL-4/IL-5/IL-13 → IgE/eosinófilos → broncoconstricción, edema y moco",
+    "alternativas": [
+      "IgE → remodelado inmediato → desaparición de mastocitos",
+      "Alarminas → Th2/ILC2 → IL-4/IL-5/IL-13 → IgE/eosinófilos → broncoconstricción, edema y moco",
+      "Alarminas → reducción de IgE → broncodilatación → menor hiperreactividad",
+      "IL-5 → inhibición eosinofílica → reducción de moco"
+    ],
+    "feedbackIncorrecto": {
+      "Alarminas → reducción de IgE → broncodilatación → menor hiperreactividad": "No corresponde a la respuesta T2.",
+      "IL-5 → inhibición eosinofílica → reducción de moco": "IL-5 favorece eosinófilos.",
+      "IgE → remodelado inmediato → desaparición de mastocitos": "El remodelado no es inmediato."
+    },
+    "ideaClave": "La inflamación T2 conecta señales epiteliales con mecanismos obstructivos."
+  },
+  {
+    "id": 8022,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Constantes de tiempo",
+    "pregunta": "¿Por qué distintas regiones pulmonares se vacían a velocidades diferentes durante una crisis?",
+    "correcta_texto": "La obstrucción heterogénea genera diferentes resistencias y constantes de tiempo",
+    "alternativas": [
+      "Todas las vías tienen igual resistencia pero distinto oxígeno",
+      "La obstrucción heterogénea genera diferentes resistencias y constantes de tiempo",
+      "El moco aumenta por igual el radio de todas las vías",
+      "La perfusión es diferente aunque la resistencia sea idéntica"
+    ],
+    "feedbackIncorrecto": {
+      "La perfusión es diferente aunque la resistencia sea idéntica": "La heterogeneidad de resistencia es central.",
+      "Todas las vías tienen igual resistencia pero distinto oxígeno": "El contenido de oxígeno no determina el vaciamiento.",
+      "El moco aumenta por igual el radio de todas las vías": "El moco reduce el radio."
+    },
+    "ideaClave": "Las unidades más obstruidas tardan más en vaciarse."
+  },
+  {
+    "id": 8023,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Hiperinsuflación",
+    "pregunta": "¿Qué secuencia explica mejor el aumento del trabajo inspiratorio?",
+    "correcta_texto": "Mayor resistencia → espiración incompleta → volumen final elevado → diafragma aplanado → mayor esfuerzo",
+    "alternativas": [
+      "Mayor resistencia → espiración incompleta → volumen final elevado → diafragma aplanado → mayor esfuerzo",
+      "Mayor resistencia → vaciamiento acelerado → volumen final bajo",
+      "Menor resistencia → atrapamiento → diafragma aplanado",
+      "Mayor perfusión → aumento del volumen final"
+    ],
+    "feedbackIncorrecto": {
+      "Mayor resistencia → vaciamiento acelerado → volumen final bajo": "La resistencia enlentece el vaciamiento.",
+      "Menor resistencia → atrapamiento → diafragma aplanado": "El atrapamiento ocurre con resistencia elevada.",
+      "Mayor perfusión → aumento del volumen final": "La perfusión no genera hiperinsuflación."
+    },
+    "ideaClave": "La hiperinsuflación conecta obstrucción espiratoria con sobrecarga inspiratoria."
+  },
+  {
+    "id": 8024,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Auto-PEEP",
+    "pregunta": "¿Por qué la auto-PEEP aumenta la sensación de disnea?",
+    "correcta_texto": "El paciente debe generar presión adicional antes de iniciar flujo inspiratorio",
+    "alternativas": [
+      "Aumenta la eficiencia del diafragma",
+      "Reduce la resistencia espiratoria",
+      "El paciente debe generar presión adicional antes de iniciar flujo inspiratorio",
+      "Disminuye el volumen pulmonar operativo"
+    ],
+    "feedbackIncorrecto": {
+      "Reduce la resistencia espiratoria": "No reduce la resistencia.",
+      "Aumenta la eficiencia del diafragma": "El diafragma está en desventaja.",
+      "Disminuye el volumen pulmonar operativo": "El volumen operativo está aumentado."
+    },
+    "ideaClave": "La auto-PEEP agrega una carga umbral."
+  },
+  {
+    "id": 8025,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "V/Q",
+    "pregunta": "¿Por qué la obstrucción heterogénea genera hipoxemia aunque otras regiones ventilen mejor?",
+    "correcta_texto": "La perfusión continúa atravesando regiones mal ventiladas y esa sangre se mezcla con sangre mejor oxigenada",
+    "alternativas": [
+      "La perfusión continúa atravesando regiones mal ventiladas y esa sangre se mezcla con sangre mejor oxigenada",
+      "La hipoxemia depende solo de difusión lenta",
+      "Las regiones sanas corrigen completamente el problema",
+      "La perfusión de las regiones obstruidas desaparece"
+    ],
+    "feedbackIncorrecto": {
+      "Las regiones sanas corrigen completamente el problema": "Las regiones sanas no corrigen totalmente la mezcla.",
+      "La perfusión de las regiones obstruidas desaparece": "La perfusión puede mantenerse.",
+      "La hipoxemia depende solo de difusión lenta": "El mecanismo principal descrito es baja V/Q."
+    },
+    "ideaClave": "La mezcla de sangre proveniente de unidades de baja V/Q reduce la oxigenación arterial."
+  },
+  {
+    "id": 8026,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "PaCO2",
+    "pregunta": "¿Por qué una PaCO₂ normal puede ser preocupante durante una crisis severa?",
+    "correcta_texto": "Porque perder la hipocapnia esperable puede indicar fatiga",
+    "alternativas": [
+      "Porque perder la hipocapnia esperable puede indicar fatiga",
+      "Porque demuestra broncodilatación completa",
+      "Porque toda PaCO₂ normal implica shunt",
+      "Porque la PaCO₂ no depende de ventilación alveolar"
+    ],
+    "feedbackIncorrecto": {
+      "Porque toda PaCO₂ normal implica shunt": "No define shunt.",
+      "Porque demuestra broncodilatación completa": "No demuestra resolución.",
+      "Porque la PaCO₂ no depende de ventilación alveolar": "Sí depende de ventilación alveolar."
+    },
+    "ideaClave": "El contexto modifica la interpretación de un valor normal."
+  },
+  {
+    "id": 8027,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Inflamación y mecánica",
+    "pregunta": "¿Por qué la inflamación puede mantener obstrucción aunque disminuya parcialmente la broncoconstricción?",
+    "correcta_texto": "Edema y moco pueden continuar reduciendo el calibre",
+    "alternativas": [
+      "Disminuir broncoconstricción elimina toda hiperreactividad",
+      "El edema mejora el vaciamiento",
+      "La inflamación aumenta siempre el radio",
+      "Edema y moco pueden continuar reduciendo el calibre"
+    ],
+    "feedbackIncorrecto": {
+      "La inflamación aumenta siempre el radio": "La inflamación estrecha la vía.",
+      "Disminuir broncoconstricción elimina toda hiperreactividad": "La hiperreactividad no desaparece de inmediato.",
+      "El edema mejora el vaciamiento": "El edema dificulta el vaciamiento."
+    },
+    "ideaClave": "La obstrucción tiene componentes musculares e inflamatorios."
+  },
+  {
+    "id": 8028,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Remodelado",
+    "pregunta": "¿Por qué el remodelado modifica la reversibilidad del asma?",
+    "correcta_texto": "Agrega cambios estructurales persistentes que no dependen solo del tono muscular",
+    "alternativas": [
+      "Reduce de forma permanente la masa muscular",
+      "Agrega cambios estructurales persistentes que no dependen solo del tono muscular",
+      "Aumenta la luz mediante pérdida de matriz",
+      "Elimina toda inflamación y normaliza la vía"
+    ],
+    "feedbackIncorrecto": {
+      "Elimina toda inflamación y normaliza la vía": "No normaliza la vía aérea.",
+      "Reduce de forma permanente la masa muscular": "Puede aumentar la masa muscular.",
+      "Aumenta la luz mediante pérdida de matriz": "Puede aumentar la matriz."
+    },
+    "ideaClave": "El componente estructural puede hacer la obstrucción menos reversible."
+  },
+  {
+    "id": 8029,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Silencio auscultatorio",
+    "pregunta": "¿Por qué la disminución de sibilancias no siempre significa mejoría?",
+    "correcta_texto": "En obstrucción extrema puede existir tan poco flujo que ya no se generen ruidos intensos",
+    "alternativas": [
+      "En obstrucción extrema puede existir tan poco flujo que ya no se generen ruidos intensos",
+      "La desaparición del ruido siempre indica broncodilatación",
+      "Las sibilancias aumentan cuando el flujo llega a cero",
+      "La sibilancia depende solo de perfusión"
+    ],
+    "feedbackIncorrecto": {
+      "Las sibilancias aumentan cuando el flujo llega a cero": "Con flujo muy bajo puede disminuir el ruido.",
+      "La sibilancia depende solo de perfusión": "La perfusión no genera sibilancias.",
+      "La desaparición del ruido siempre indica broncodilatación": "La ausencia de ruido puede ser grave."
+    },
+    "ideaClave": "El silencio auscultatorio puede reflejar obstrucción crítica."
+  },
+  {
+    "id": 8030,
+    "nivel": 3,
+    "bloom": "Analizar",
+    "tema": "Integración clínica",
+    "pregunta": "¿Qué secuencia relaciona mejor los procesos celulares con la disnea?",
+    "correcta_texto": "Inflamación/hiperreactividad → menor calibre → mayor resistencia → atrapamiento → mayor trabajo respiratorio",
+    "alternativas": [
+      "Inflamación → mayor calibre → menor resistencia → disnea",
+      "Hiperreactividad → broncodilatación → atrapamiento",
+      "Moco → aumento de V/Q → menor trabajo",
+      "Inflamación/hiperreactividad → menor calibre → mayor resistencia → atrapamiento → mayor trabajo respiratorio"
+    ],
+    "feedbackIncorrecto": {
+      "Inflamación → mayor calibre → menor resistencia → disnea": "La inflamación reduce el calibre.",
+      "Hiperreactividad → broncodilatación → atrapamiento": "La hiperreactividad favorece broncoconstricción.",
+      "Moco → aumento de V/Q → menor trabajo": "El moco empeora la ventilación."
+    },
+    "ideaClave": "La disnea emerge de la integración entre inflamación, obstrucción y mecánica."
+  },
+  {
+    "id": 8031,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso integrado",
+    "pregunta": "Un paciente con asma alérgica desarrolla broncoespasmo minutos después de exposición y seis horas más tarde mantiene moco, edema y mayor hiperreactividad. ¿Qué explicación integra mejor ambos momentos?",
+    "correcta_texto": "Fase inmediata mastocitaria seguida de fase tardía inflamatoria",
+    "alternativas": [
+      "Hiperinsuflación inicial seguida de sensibilización inmunológica",
+      "Remodelado estructural agudo seguido de broncodilatación compensatoria",
+      "Respuesta vagal aislada seguida de desaparición de inflamación",
+      "Fase inmediata mastocitaria seguida de fase tardía inflamatoria"
+    ],
+    "feedbackIncorrecto": {
+      "Remodelado estructural agudo seguido de broncodilatación compensatoria": "El remodelado no ocurre en ese intervalo.",
+      "Respuesta vagal aislada seguida de desaparición de inflamación": "La vía vagal no explica toda la respuesta tardía.",
+      "Hiperinsuflación inicial seguida de sensibilización inmunológica": "La sensibilización precede a la reexposición."
+    },
+    "ideaClave": "Las fases inmediata y tardía explican la evolución temporal."
+  },
+  {
+    "id": 8032,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso mecánico",
+    "pregunta": "Paciente con FR 38/min, espiración prolongada y volumen pulmonar progresivamente mayor al final de la espiración. ¿Qué mecanismo explica mejor el deterioro?",
+    "correcta_texto": "Vaciamiento incompleto con hiperinsuflación dinámica",
+    "alternativas": [
+      "Disminución del volumen final espiratorio por taquipnea",
+      "Reducción de resistencia con atrapamiento",
+      "Aumento de distensibilidad con vaciamiento completo",
+      "Vaciamiento incompleto con hiperinsuflación dinámica"
+    ],
+    "feedbackIncorrecto": {
+      "Aumento de distensibilidad con vaciamiento completo": "La hiperinsuflación exige vaciamiento incompleto.",
+      "Reducción de resistencia con atrapamiento": "El atrapamiento ocurre con resistencia elevada.",
+      "Disminución del volumen final espiratorio por taquipnea": "El volumen final aumenta."
+    },
+    "ideaClave": "La taquipnea agrava el atrapamiento si el flujo espiratorio está limitado."
+  },
+  {
+    "id": 8033,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso auto-PEEP",
+    "pregunta": "Un paciente hiperinsuflado debe generar un esfuerzo marcado antes de que comience a entrar aire. ¿Qué fenómeno explica mejor la carga inicial?",
+    "correcta_texto": "Auto-PEEP",
+    "alternativas": [
+      "Auto-PEEP",
+      "Aumento de distensibilidad pulmonar",
+      "Reducción del volumen residual",
+      "Disminución de resistencia bronquial"
+    ],
+    "feedbackIncorrecto": {
+      "Disminución de resistencia bronquial": "La resistencia sigue elevada.",
+      "Aumento de distensibilidad pulmonar": "No aumenta la distensibilidad útil.",
+      "Reducción del volumen residual": "El volumen pulmonar final está aumentado."
+    },
+    "ideaClave": "La auto-PEEP debe superarse antes de generar flujo inspiratorio."
+  },
+  {
+    "id": 8034,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso V/Q",
+    "pregunta": "Paciente con sibilancias difusas presenta hipoxemia sin consolidaciones radiológicas. ¿Qué mecanismo es más probable?",
+    "correcta_texto": "Desajuste V/Q por obstrucción bronquial heterogénea",
+    "alternativas": [
+      "Fibrosis intersticial aguda",
+      "Shunt anatómico fijo generalizado",
+      "Desajuste V/Q por obstrucción bronquial heterogénea",
+      "Pérdida global de perfusión pulmonar"
+    ],
+    "feedbackIncorrecto": {
+      "Shunt anatómico fijo generalizado": "No es el mecanismo típico del asma.",
+      "Fibrosis intersticial aguda": "No corresponde a una crisis aguda.",
+      "Pérdida global de perfusión pulmonar": "Eso generaría espacio muerto."
+    },
+    "ideaClave": "La hipoxemia asmática se explica principalmente por baja V/Q regional."
+  },
+  {
+    "id": 8035,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso PaCO2",
+    "pregunta": "Paciente con crisis grave pasa de PaCO₂ 27 a 42 mmHg mientras aumenta el agotamiento. ¿Cuál interpretación es más consistente?",
+    "correcta_texto": "La ventilación alveolar efectiva está disminuyendo pese a la taquipnea",
+    "alternativas": [
+      "La ventilación alveolar efectiva está disminuyendo pese a la taquipnea",
+      "La broncoconstricción disminuyó y por eso retiene CO₂",
+      "La relación V/Q se normalizó",
+      "La crisis está resolviéndose porque la PaCO₂ se normalizó"
+    ],
+    "feedbackIncorrecto": {
+      "La crisis está resolviéndose porque la PaCO₂ se normalizó": "La tendencia ascendente es preocupante.",
+      "La relación V/Q se normalizó": "La PaCO₂ no demuestra normalización V/Q.",
+      "La broncoconstricción disminuyó y por eso retiene CO₂": "La retención de CO₂ no se interpreta como mejoría."
+    },
+    "ideaClave": "La fatiga puede producir retención de CO₂ aun con frecuencia elevada."
+  },
+  {
+    "id": 8036,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso diafragma",
+    "pregunta": "Un paciente muy hiperinsuflado utiliza músculos accesorios de forma intensa. ¿Qué explicación es más adecuada?",
+    "correcta_texto": "El diafragma aplanado pierde ventaja mecánica y aumenta el reclutamiento accesorio",
+    "alternativas": [
+      "La auto-PEEP reduce la carga inspiratoria",
+      "El diafragma gana longitud óptima",
+      "El diafragma aplanado pierde ventaja mecánica y aumenta el reclutamiento accesorio",
+      "La resistencia cae por aumento del volumen pulmonar"
+    ],
+    "feedbackIncorrecto": {
+      "El diafragma gana longitud óptima": "La hiperinsuflación aplana el diafragma.",
+      "La auto-PEEP reduce la carga inspiratoria": "La auto-PEEP agrega carga.",
+      "La resistencia cae por aumento del volumen pulmonar": "La resistencia no necesariamente disminuye."
+    },
+    "ideaClave": "La hiperinsuflación aumenta el trabajo respiratorio."
+  },
+  {
+    "id": 8037,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso moco",
+    "pregunta": "Tras broncodilatación mejora parte del flujo, pero persisten zonas mal ventiladas. ¿Qué mecanismo explica mejor la obstrucción residual?",
+    "correcta_texto": "Tapones mucosos y edema persistente",
+    "alternativas": [
+      "Desaparición de hiperreactividad",
+      "Tapones mucosos y edema persistente",
+      "Aumento de radio por moco residual",
+      "Reducción de permeabilidad con aumento de edema"
+    ],
+    "feedbackIncorrecto": {
+      "Aumento de radio por moco residual": "El moco reduce el lumen.",
+      "Reducción de permeabilidad con aumento de edema": "Menor permeabilidad no aumenta edema.",
+      "Desaparición de hiperreactividad": "La hiperreactividad no desaparece de inmediato."
+    },
+    "ideaClave": "Relajar músculo liso no elimina todos los componentes obstructivos."
+  },
+  {
+    "id": 8038,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso remodelado",
+    "pregunta": "Paciente con años de asma mantiene limitación del flujo incluso fuera de crisis y responde menos al broncodilatador. ¿Qué mecanismo debe priorizarse?",
+    "correcta_texto": "Remodelado estructural de la vía aérea",
+    "alternativas": [
+      "Hiperventilación crónica como causa",
+      "Respuesta inmediata mastocitaria continua",
+      "Hiperreactividad aislada sin cambios estructurales",
+      "Remodelado estructural de la vía aérea"
+    ],
+    "feedbackIncorrecto": {
+      "Respuesta inmediata mastocitaria continua": "La respuesta inmediata es episódica.",
+      "Hiperreactividad aislada sin cambios estructurales": "La menor reversibilidad sugiere componente estructural.",
+      "Hiperventilación crónica como causa": "La hiperventilación no explica estrechamiento persistente."
+    },
+    "ideaClave": "El remodelado puede dejar limitación menos reversible."
+  },
+  {
+    "id": 8039,
+    "nivel": 4,
+    "bloom": "Evaluar",
+    "tema": "Caso silencio",
+    "pregunta": "Paciente con crisis grave deja de presentar sibilancias intensas, pero aumenta el agotamiento y casi no se ausculta flujo. ¿Qué interpretación es más correcta?",
+    "correcta_texto": "El flujo puede ser tan bajo que ya no genere sibilancias audibles",
+    "alternativas": [
+      "El flujo puede ser tan bajo que ya no genere sibilancias audibles",
+      "La broncoconstricción se resolvió",
+      "La vía aérea está más abierta porque hay menos ruido",
+      "La perfusión aumentó y silenció las sibilancias"
+    ],
+    "feedbackIncorrecto": {
+      "La broncoconstricción se resolvió": "La disminución del ruido puede ser empeoramiento.",
+      "La vía aérea está más abierta porque hay menos ruido": "Menos ruido no significa mayor calibre.",
+      "La perfusión aumentó y silenció las sibilancias": "La perfusión no determina las sibilancias."
+    },
+    "ideaClave": "El silencio auscultatorio puede ser señal de obstrucción crítica."
+  },
+  {
+    "id": 8040,
     "nivel": 4,
     "bloom": "Evaluar",
     "tema": "Caso final",
-    "pregunta": "¿Qué enfoque resume mejor el manejo fisiopatológico y kinésico del asma descrito en los documentos?",
-    "correcta_texto": "Controlar inflamación, aliviar broncoconstricción, evaluar gravedad y aplicar intervención kinésica individualizada",
+    "pregunta": "¿Qué secuencia resume mejor la progresión fisiopatológica de una exacerbación asmática severa?",
+    "correcta_texto": "Inflamación/hiperreactividad → broncoconstricción-edema-moco → resistencia elevada → atrapamiento/hiperinsuflación → baja V/Q → fatiga",
     "alternativas": [
-      "Controlar inflamación, aliviar broncoconstricción, evaluar gravedad y aplicar intervención kinésica individualizada",
-      "Usar broncodilatadores como único tratamiento de base",
-      "Sustituir tratamiento farmacológico por ejercicios respiratorios",
-      "Indicar higiene bronquial sistemática a todo paciente"
+      "Hiperreactividad → perfusión cero → shunt → recuperación",
+      "Inflamación → broncodilatación → menor resistencia → hiperinsuflación",
+      "Inflamación/hiperreactividad → broncoconstricción-edema-moco → resistencia elevada → atrapamiento/hiperinsuflación → baja V/Q → fatiga",
+      "Moco → mayor radio → mayor V/Q → fatiga"
     ],
     "feedbackIncorrecto": {
-      "Usar broncodilatadores como único tratamiento de base": "La inflamación requiere tratamiento controlador.",
-      "Sustituir tratamiento farmacológico por ejercicios respiratorios": "La Kinesiología complementa, no reemplaza, la medicación.",
-      "Indicar higiene bronquial sistemática a todo paciente": "La higiene bronquial se reserva a indicaciones específicas."
+      "Inflamación → broncodilatación → menor resistencia → hiperinsuflación": "La inflamación favorece estrechamiento.",
+      "Moco → mayor radio → mayor V/Q → fatiga": "El moco reduce el radio y empeora V/Q.",
+      "Hiperreactividad → perfusión cero → shunt → recuperación": "Perfusión cero corresponde a espacio muerto, no shunt."
     },
-    "ideaClave": "El manejo es multimodal y se ajusta a gravedad, control y problemas funcionales."
+    "ideaClave": "La crisis severa integra inflamación, mecánica, intercambio gaseoso y fatiga."
   }
 ]
